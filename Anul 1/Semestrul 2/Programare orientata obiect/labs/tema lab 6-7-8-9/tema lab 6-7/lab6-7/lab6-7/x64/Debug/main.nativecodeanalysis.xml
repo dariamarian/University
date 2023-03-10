@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7-8-9\tema lab 6-7\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>Masina.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Masina::ID' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Masina::{ctor}</FUNCTION>
+    <DECORATED>??0Masina@@QEAA@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Masina::ID</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7-8-9\tema lab 6-7\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>AbstractRepo.h</FILENAME>
+      <LINE>125</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'NewRepo::random' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>NewRepo::{ctor}</FUNCTION>
+    <DECORATED>??0NewRepo@@QEAA@XZ</DECORATED>
+    <FUNCLINE>125</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>NewRepo::random</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

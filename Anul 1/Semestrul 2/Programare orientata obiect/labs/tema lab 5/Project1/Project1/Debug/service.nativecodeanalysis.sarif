@@ -1,0 +1,1257 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'srv'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 5,
+                  "endLine": 69,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "service_initialization",
+                  "decoratedName": "service_initialization",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'srv' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'srv' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'out'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                },
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 5,
+                  "endLine": 133,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "service_show",
+                  "decoratedName": "service_show",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'out' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 133,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'out' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'out' could be '0':  this does not adhere to the specification for the function 'strcat'. See line 133 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 13,
+                  "endLine": 140,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "service_show",
+                  "decoratedName": "service_show",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'out' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 133,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 135,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 135,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<end')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 137,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'get_scor(participant)>intscor')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'out' is an In/Out argument to 'strcat' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:91)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'out' should not be NULL, because this is not consistent with the SAL annotation on 'strcat'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'out'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 5,
+                  "endLine": 168,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "service_show2",
+                  "decoratedName": "service_show2",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 157,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 160,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 161,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 163,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 165,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'out' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 168,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'out' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'out' could be '0':  this does not adhere to the specification for the function 'strcat'. See line 168 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 13,
+                  "endLine": 175,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "service_show2",
+                  "decoratedName": "service_show2",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 157,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 160,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 161,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 163,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 165,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'out' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 168,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 169,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 170,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 170,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<end')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 172,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 174,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'get_scor(participant)<intscor')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 175,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'out' is an In/Out argument to 'strcat' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:91)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 175,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'out' should not be NULL, because this is not consistent with the SAL annotation on 'strcat'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'out'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                },
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 5,
+                  "endLine": 221,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "service_debug",
+                  "decoratedName": "service_debug",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 216,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 217,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'out' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 220,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 221,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'out' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'out' could be '0':  this does not adhere to the specification for the function 'strcat'. See line 221 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                },
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 9,
+                  "endLine": 225,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "service_debug",
+                  "decoratedName": "service_debug",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 216,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 217,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'out' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 220,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 221,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 222,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 223,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 223,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<end')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 224,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'out' is an In/Out argument to 'strcat' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:91)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'out' should not be NULL, because this is not consistent with the SAL annotation on 'strcat'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.30.30706.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX86\\x86\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x002BE1C0 -il C:\\Users\\daria\\AppData\\Local\\Temp\\_CL_22b641d8ast -typedil -f Service\\service.c -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1930 -D_MSC_FULL_VER=193030706 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -FoDebug\\service.obj -FdDebug\\vc143.pdb -external:W 4 -Gd -analyze:projectdirectory C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema 5\\Project1\\Project1 -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema 5\\Project1\\Project1\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema 5\\Project1\\Project1\\Include\\um -I C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema 5\\Project1\\Project1\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/validators/validators.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "84f397d11fd5933fb665f8a06be5f84f2cef09e8992f1278508336da4cfcb363"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/validators/validators.h"
+          },
+          "hashes": {
+            "sha-256": "1c384bc20fb5a270d83c05e8f90275370f1491bc50ab155fdebc9d415d4d9349"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8b1c26f77cb22ab2b3c89547a3cd4a9b03ebd3b0b1cd50e00275bd7ece6acef7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/service/service.h"
+          },
+          "hashes": {
+            "sha-256": "4c5bf962448a44ee273c5453a9d35404eb9a09b01afe0a9ced82cb759ae77f17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/repozitory/repozitory.h"
+          },
+          "hashes": {
+            "sha-256": "a170a18adee0d9546322b33a9ea054f1b57516e4f562e88169e361c4764c6db3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/domain/participant.h"
+          },
+          "hashes": {
+            "sha-256": "3fd94290773623307a985ae8e01c29e82e82ce7e8758144fdf413733da29a0f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/vectordynamic.h"
+          },
+          "hashes": {
+            "sha-256": "2277cfa41c6da4b16a42f0de0e6a6a7550e2286c65cc56cce070f587c2b4ba20"
+          }
+        }
+      ]
+    }
+  ]
+}

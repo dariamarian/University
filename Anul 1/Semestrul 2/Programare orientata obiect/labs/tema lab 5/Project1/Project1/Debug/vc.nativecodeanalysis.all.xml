@@ -1,0 +1,1134 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+      <FILENAME>participant.c</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'participant'. </DESCRIPTION>
+    <FUNCTION>create_participant</FUNCTION>
+    <DECORATED>create_participant</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+      <FILENAME>participant.c</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'participant-&gt;prenume' could be '0':  this does not adhere to the specification for the function 'strcpy'. </DESCRIPTION>
+    <FUNCTION>create_participant</FUNCTION>
+    <DECORATED>create_participant</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'prenume' is an In/Out argument to 'strcpy' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:130)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant-&gt;prenume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+      <FILENAME>participant.c</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'participant-&gt;nume' could be '0':  this does not adhere to the specification for the function 'strcpy'. </DESCRIPTION>
+    <FUNCTION>create_participant</FUNCTION>
+    <DECORATED>create_participant</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nume' is an In/Out argument to 'strcpy' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:130)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant-&gt;nume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+      <FILENAME>participant.c</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'participant-&gt;nume' could be '0':  this does not adhere to the specification for the function 'strcpy'. </DESCRIPTION>
+    <FUNCTION>set_nume</FUNCTION>
+    <DECORATED>set_nume</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nume' is an Input to 'free' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\corecrt_malloc.h:89)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nume' is an In/Out argument to 'strcpy' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:130)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant-&gt;nume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+      <FILENAME>participant.c</FILENAME>
+      <LINE>57</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'participant-&gt;prenume' could be '0':  this does not adhere to the specification for the function 'strcpy'. </DESCRIPTION>
+    <FUNCTION>set_prenume</FUNCTION>
+    <DECORATED>set_prenume</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'prenume' is an Input to 'free' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\corecrt_malloc.h:89)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'prenume' is an In/Out argument to 'strcpy' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:130)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant-&gt;prenume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Interface\</FILEPATH>
+      <FILENAME>interface.c</FILENAME>
+      <LINE>191</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '100008' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>get_command</FUNCTION>
+    <DECORATED>get_command</DECORATED>
+    <FUNCLINE>191</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+      <FILENAME>repozitory.c</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'array'. </DESCRIPTION>
+    <FUNCTION>repo_initialization</FUNCTION>
+    <DECORATED>repo_initialization</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'array' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'array' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+      <FILENAME>repozitory.c</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'array'. </DESCRIPTION>
+    <FUNCTION>repo_initialization2</FUNCTION>
+    <DECORATED>repo_initialization2</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'array' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'array' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+      <FILENAME>repozitory.c</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'newlist':  the writable size is '(unsigned int)newcapacity*sizeof(type_participant *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>repo_realloc</FUNCTION>
+    <DECORATED>repo_realloc</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newlist' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;array-&gt;size')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>37</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;array-&gt;size')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'newlist', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+      <FILENAME>repozitory.c</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'newlist'. </DESCRIPTION>
+    <FUNCTION>repo_realloc</FUNCTION>
+    <DECORATED>repo_realloc</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newlist' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;array-&gt;size')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Repozitory\</FILEPATH>
+        <FILENAME>repozitory.c</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newlist' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+      <FILENAME>service.c</FILENAME>
+      <LINE>69</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'srv'. </DESCRIPTION>
+    <FUNCTION>service_initialization</FUNCTION>
+    <DECORATED>service_initialization</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'srv' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'srv' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+      <FILENAME>service.c</FILENAME>
+      <LINE>133</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'out'. </DESCRIPTION>
+    <FUNCTION>service_show</FUNCTION>
+    <DECORATED>service_show</DECORATED>
+    <FUNCLINE>121</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+      <FILENAME>service.c</FILENAME>
+      <LINE>140</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'out' could be '0':  this does not adhere to the specification for the function 'strcat'. See line 133 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>service_show</FUNCTION>
+    <DECORATED>service_show</DECORATED>
+    <FUNCLINE>121</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;end')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'get_scor(participant)&gt;intscor')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'out' is an In/Out argument to 'strcat' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:91)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' should not be NULL, because this is not consistent with the SAL annotation on 'strcat'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+      <FILENAME>service.c</FILENAME>
+      <LINE>168</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'out'. </DESCRIPTION>
+    <FUNCTION>service_show2</FUNCTION>
+    <DECORATED>service_show2</DECORATED>
+    <FUNCLINE>156</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>160</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>165</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+      <FILENAME>service.c</FILENAME>
+      <LINE>175</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'out' could be '0':  this does not adhere to the specification for the function 'strcat'. See line 168 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>service_show2</FUNCTION>
+    <DECORATED>service_show2</DECORATED>
+    <FUNCLINE>156</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>160</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>165</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;end')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'get_scor(participant)&lt;intscor')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'out' is an In/Out argument to 'strcat' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:91)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' should not be NULL, because this is not consistent with the SAL annotation on 'strcat'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+      <FILENAME>service.c</FILENAME>
+      <LINE>221</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'out'. </DESCRIPTION>
+    <FUNCTION>service_debug</FUNCTION>
+    <DECORATED>service_debug</DECORATED>
+    <FUNCLINE>215</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>217</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+      <FILENAME>service.c</FILENAME>
+      <LINE>225</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'out' could be '0':  this does not adhere to the specification for the function 'strcat'. See line 221 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>service_debug</FUNCTION>
+    <DECORATED>service_debug</DECORATED>
+    <FUNCLINE>215</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>217</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;end')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'out' is an In/Out argument to 'strcat' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:91)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Service\</FILEPATH>
+        <FILENAME>service.c</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'out' should not be NULL, because this is not consistent with the SAL annotation on 'strcat'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

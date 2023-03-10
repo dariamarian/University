@@ -1,0 +1,696 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'participant'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 5,
+                  "endLine": 21,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "create_participant",
+                  "decoratedName": "create_participant",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "'participant' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "'participant' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'participant->prenume' could be '0':  this does not adhere to the specification for the function 'strcpy'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 5,
+                  "endLine": 29,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "create_participant",
+                  "decoratedName": "create_participant",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'prenume' is an In/Out argument to 'strcpy' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:130)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'participant->prenume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'participant->nume' could be '0':  this does not adhere to the specification for the function 'strcpy'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 5,
+                  "endLine": 24,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "create_participant",
+                  "decoratedName": "create_participant",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'nume' is an In/Out argument to 'strcpy' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:130)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'participant->nume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'participant->nume' could be '0':  this does not adhere to the specification for the function 'strcpy'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 5,
+                  "endLine": 48,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "set_nume",
+                  "decoratedName": "set_nume",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'nume' is an Input to 'free' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\corecrt_malloc.h:89)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'nume' is an In/Out argument to 'strcpy' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:130)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'participant->nume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'participant->prenume' could be '0':  this does not adhere to the specification for the function 'strcpy'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 5,
+                  "endLine": 57,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "set_prenume",
+                  "decoratedName": "set_prenume",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'prenume' is an Input to 'free' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\corecrt_malloc.h:89)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'prenume' is an In/Out argument to 'strcpy' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:130)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'participant->prenume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.30.30706.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX86\\x86\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0068E1C0 -il C:\\Users\\daria\\AppData\\Local\\Temp\\_CL_cbf4e705ast -typedil -f Domain\\participant.c -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1930 -D_MSC_FULL_VER=193030706 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -FoDebug\\participant.obj -FdDebug\\vc143.pdb -external:W 4 -Gd -analyze:projectdirectory C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema 5\\Project1\\Project1 -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema 5\\Project1\\Project1\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema 5\\Project1\\Project1\\Include\\um -I C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema 5\\Project1\\Project1\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/validators/validators.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b9cf012435810f294094f9bd74168a3b4b32ee7b348c6702b0f9f9ac63e53c05"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/validators/validators.h"
+          },
+          "hashes": {
+            "sha-256": "1c384bc20fb5a270d83c05e8f90275370f1491bc50ab155fdebc9d415d4d9349"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/vectordynamic.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "1a4046b3d22b6505110e1fb65d0fccfea40b1ede8591f8e340932aaf926b0bc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/vectordynamic.h"
+          },
+          "hashes": {
+            "sha-256": "2277cfa41c6da4b16a42f0de0e6a6a7550e2286c65cc56cce070f587c2b4ba20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Service/service.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8b1c26f77cb22ab2b3c89547a3cd4a9b03ebd3b0b1cd50e00275bd7ece6acef7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/service/service.h"
+          },
+          "hashes": {
+            "sha-256": "4c5bf962448a44ee273c5453a9d35404eb9a09b01afe0a9ced82cb759ae77f17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/repozitory/repozitory.h"
+          },
+          "hashes": {
+            "sha-256": "a170a18adee0d9546322b33a9ea054f1b57516e4f562e88169e361c4764c6db3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/domain/participant.h"
+          },
+          "hashes": {
+            "sha-256": "3fd94290773623307a985ae8e01c29e82e82ce7e8758144fdf413733da29a0f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Repozitory/repozitory.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0e5160c70e9f3f9540c0e8d0b54512bbdcae229943d0a00070ec0b5d2938d2c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/main.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "4dad56abcb77f138f143dddb5671ebb5d6c923723582b1a8615b5e811f77a281"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/interface/interface.h"
+          },
+          "hashes": {
+            "sha-256": "ac09554f310036da1baa0fd7793c4d8ba1c216f90ef63d14bf5a7e9502d73170"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema 5/project1/project1/interface/interface.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b1d6654fa684626686cce7409914afb61dae7a811ccf4d6d8d85dd3b7ad3477f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema 5/Project1/Project1/Domain/participant.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5bfa2108598f14cbfb5a555e6ec9b3bd703cd02e1890c0694a3e7a2fea779d8d"
+          }
+        }
+      ]
+    }
+  ]
+}

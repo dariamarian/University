@@ -1,0 +1,21 @@
+[2022-05-05 15:59:42] [info] Start Program:
+Path:"C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7\lab6-7\x64\Debug\lab6-7.exe"
+Arguments:
+Working directory: "C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7\lab6-7\lab6-7\"
+Modules: Selected: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7\lab6-7\x64\Debug\lab6-7.exe Excluded: 
+Sources: Selected: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7\lab6-7\lab6-7 Excluded: UI Exceptii RepoMasina AbstractRepo 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\daria\AppData\Local\Temp\ovkbbksh.ehb 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-05-05 15:59:42] [info] Module: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7\lab6-7\x64\Debug\lab6-7.exe is selected because it matches selected pattern: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7\lab6-7\x64\Debug\lab6-7.exe
+[2022-05-05 15:59:43] [info] ----------------------------------------------------
+[2022-05-05 15:59:43] [info] Coverage binary generated in file: C:\Users\daria\AppData\Local\Temp\ovkbbksh.ehb
+[2022-05-05 15:59:43] [info] ----------------------------------------------------

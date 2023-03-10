@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+      <FILENAME>participant.c</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'participant'. </DESCRIPTION>
+    <FUNCTION>create_participant</FUNCTION>
+    <DECORATED>create_participant</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+      <FILENAME>participant.c</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'participant-&gt;prenume' could be '0':  this does not adhere to the specification for the function 'strcpy'. </DESCRIPTION>
+    <FUNCTION>create_participant</FUNCTION>
+    <DECORATED>create_participant</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'prenume' is an In/Out argument to 'strcpy' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:130)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant-&gt;prenume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+      <FILENAME>participant.c</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'participant-&gt;nume' could be '0':  this does not adhere to the specification for the function 'strcpy'. </DESCRIPTION>
+    <FUNCTION>create_participant</FUNCTION>
+    <DECORATED>create_participant</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nume' is an In/Out argument to 'strcpy' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:130)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant-&gt;nume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+      <FILENAME>participant.c</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'participant-&gt;nume' could be '0':  this does not adhere to the specification for the function 'strcpy'. </DESCRIPTION>
+    <FUNCTION>set_nume</FUNCTION>
+    <DECORATED>set_nume</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nume' is an Input to 'free' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\corecrt_malloc.h:89)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nume' is an In/Out argument to 'strcpy' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:130)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant-&gt;nume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+      <FILENAME>participant.c</FILENAME>
+      <LINE>57</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'participant-&gt;prenume' could be '0':  this does not adhere to the specification for the function 'strcpy'. </DESCRIPTION>
+    <FUNCTION>set_prenume</FUNCTION>
+    <DECORATED>set_prenume</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'prenume' is an Input to 'free' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\corecrt_malloc.h:89)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'prenume' is an In/Out argument to 'strcpy' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\string.h:130)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Domain\</FILEPATH>
+        <FILENAME>participant.c</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'participant-&gt;prenume' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

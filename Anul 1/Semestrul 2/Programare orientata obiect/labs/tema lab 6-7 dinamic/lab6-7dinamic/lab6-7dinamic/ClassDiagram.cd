@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConsolUI">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASEAAAAAAAAAAgABAAAAAAAAAACBAAIAAAAAAAAAA=</HashCode>
+      <FileName>UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Masina">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAABAQoAGAAAAAAAAAAAAAAAAAAAAAAAAoASA=</HashCode>
+      <FileName>Masina.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasinaValidator">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ValidatorMasina.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasinaRepo">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAgAAAAAAAAAABCQAAAAKEAAA=</HashCode>
+      <FileName>RepoMasina.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServiceMasina">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIAAAAAAQAAACAMACAAAQEkBAAAAAAAABAIAAAA=</HashCode>
+      <FileName>ServiceMasina.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

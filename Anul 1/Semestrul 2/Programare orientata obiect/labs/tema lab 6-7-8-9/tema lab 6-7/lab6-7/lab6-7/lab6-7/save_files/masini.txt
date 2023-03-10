@@ -1,0 +1,6 @@
+1 inm,prod,model,tip
+3 ,HD26PAZ,BMW,I5
+4 ,CJ13MGN,Mercedes,E-Class
+5 ,B27INF,Nissan,Juke
+6 ,SV99IDK,Mercedes,S-Class
+14 inm,prod,model,tip

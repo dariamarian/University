@@ -1,0 +1,129 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.30.30706.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF664180C80 -il C:\\Users\\daria\\AppData\\Local\\Temp\\_CL_008820b3ast -typedil -f UI.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1930 -D_MSC_FULL_VER=193030706 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\UI.obj -Fdx64\\Debug\\vc143.pdb -external:W 4 -Gd -analyze:projectdirectory C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema lab 6-7 dinamic\\lab6-7dinamic\\lab6-7dinamic -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema lab 6-7 dinamic\\lab6-7dinamic\\lab6-7dinamic\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema lab 6-7 dinamic\\lab6-7dinamic\\lab6-7dinamic\\Include\\um -I C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\sem 2\\Programare orientata obiect\\Laborator\\tema lab 6-7 dinamic\\lab6-7dinamic\\lab6-7dinamic\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/Masina.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b0b355b66e123510b0c2e88a0c1e3c8e00060733390816700a66eb0771f79899"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/vectdinsmartpointer.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f90728e181dc244d6b2117e72a1f67a5cb234765c3f9ae51200397716ce0d14e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/vectdinsmartpointer.h"
+          },
+          "hashes": {
+            "sha-256": "dd1ee13405aa2f1c7c462efe8d6b6ab85e9a080d38124623f82c8253dc06108b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/daria/OneDrive/Desktop/Faculta/sem 2/Programare orientata obiect/Laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/VectDinNewDelete.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "aabfae5e6f26b0f593cf94ba1c6d0d89307a10ef43e422905ba0776e98335387"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/vectdinnewdelete.h"
+          },
+          "hashes": {
+            "sha-256": "207d34c021e16a08e12e198a1f5220e960a56043e89cca4584ec15e8020326ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/validatormasina.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "c30cd8fd0b8ff168bf0f600d37cc708889d48c689f1aa845895039a64101904c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/validatormasina.h"
+          },
+          "hashes": {
+            "sha-256": "b796e651486d2a683647538a76a56acdd7c098f224923ab97b9952b8fb967620"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/ui.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e81ef59a01e66a9e85c13c52d3a080db2169b119a3f22f139ac1165981a2fddf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/ui.h"
+          },
+          "hashes": {
+            "sha-256": "1027ff56fef3b68c9bfdf8237eb4890b9e3996f1452ecb902018e4c1f5bb376a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/servicemasina.h"
+          },
+          "hashes": {
+            "sha-256": "bbf966335a14fe49eec23ab42e2cbdaa23805bb8b46f64235ec25cb374ce626c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/daria/onedrive/desktop/faculta/sem 2/programare orientata obiect/laborator/tema lab 6-7 dinamic/lab6-7dinamic/lab6-7dinamic/repomasina.h"
+          },
+          "hashes": {
+            "sha-256": "3b6d40e8e9897c0dacb777cb71a75ef0513e7656bfc76e1b9a2a69660d200777"
+          }
+        }
+      ]
+    }
+  ]
+}

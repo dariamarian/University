@@ -1,0 +1,21 @@
+[2022-03-31 15:58:19] [info] Start Program:
+Path:"C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Debug\Project1.exe"
+Arguments:
+Working directory: "C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\"
+Modules: Selected: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Debug\Project1.exe Excluded: 
+Sources: Selected: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1 Excluded: interface 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\daria\AppData\Local\Temp\azdqrz5s.tvj 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-31 15:58:20] [info] Module: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Debug\Project1.exe is selected because it matches selected pattern: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Debug\Project1.exe
+[2022-03-31 16:05:03] [info] ----------------------------------------------------
+[2022-03-31 16:05:03] [info] Coverage binary generated in file: C:\Users\daria\AppData\Local\Temp\azdqrz5s.tvj
+[2022-03-31 16:05:03] [info] ----------------------------------------------------

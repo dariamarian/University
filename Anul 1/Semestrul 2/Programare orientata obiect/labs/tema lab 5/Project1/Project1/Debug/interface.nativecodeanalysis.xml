@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema 5\Project1\Project1\Interface\</FILEPATH>
+      <FILENAME>interface.c</FILENAME>
+      <LINE>191</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '100008' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>get_command</FUNCTION>
+    <DECORATED>get_command</DECORATED>
+    <FUNCLINE>191</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

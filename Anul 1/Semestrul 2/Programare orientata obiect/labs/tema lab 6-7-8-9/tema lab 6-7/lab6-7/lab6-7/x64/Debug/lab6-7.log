@@ -1,0 +1,15 @@
+﻿  AbstractRepo.cpp
+  Exceptii.cpp
+  FileRepoMasina.cpp
+  main.cpp
+  Masina.cpp
+  ServiceMasina.cpp
+  RepoMasina.cpp
+  UI.cpp
+  Undo.cpp
+  ValidatorMasina.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  lab6-7.vcxproj -> C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7-8-9\tema lab 6-7\lab6-7\x64\Debug\lab6-7.exe
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7-8-9\tema lab 6-7\lab6-7\lab6-7\Masina.h(21): warning C26495: Variable 'Masina::ID' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7-8-9\tema lab 6-7\lab6-7\lab6-7\AbstractRepo.h(125): warning C26495: Variable 'NewRepo::random' is uninitialized. Always initialize a member variable (type.6).

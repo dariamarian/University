@@ -1,0 +1,22 @@
+[2022-03-23 21:42:24] [info] Start Program:
+Path:"C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Debug\lab2.exe"
+Arguments:
+Working directory: "C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\"
+Modules: Selected: C:\Users\daria\Downloads\problema daria\problema daria\Debug\lab2.exe Excluded: 
+Sources: Selected: C:\Users\daria\Downloads\problema daria\problema daria\Assignment 2-3 Excluded: Console 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\daria\AppData\Local\Temp\gyfqgeqa.xcg 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-23 21:42:28] [info] ----------------------------------------------------
+[2022-03-23 21:42:28] [info] Coverage binary generated in file: C:\Users\daria\AppData\Local\Temp\gyfqgeqa.xcg
+[2022-03-23 21:42:28] [info] ----------------------------------------------------
+[2022-03-23 21:42:28] [warning] No modules were selected. Please check the values of --modules and --excluded_modules.
+You can try to remove all --modules and --excluded_modules and use --modules=C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Debug instead.

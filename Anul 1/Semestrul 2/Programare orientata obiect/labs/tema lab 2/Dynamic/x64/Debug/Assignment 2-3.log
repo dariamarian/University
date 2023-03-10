@@ -1,0 +1,25 @@
+﻿  Console.c
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\Console.c(112,6): warning C4013: 'gets' undefined; assuming extern returning int
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\Console.c(295,26): warning C4013: 'Validprenume' undefined; assuming extern returning int
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\Console.c(307,19): warning C4013: 'Validscor' undefined; assuming extern returning int
+  DynamicArray.c
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\DynamicArray.c(5,48): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\DynamicArray.c(5,70): warning C4312: 'type cast': conversion from 'int' to 'DynamicArray *' of greater size
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\DynamicArray.c(12,70): warning C4312: 'type cast': conversion from 'int' to 'TElement *' of greater size
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\DynamicArray.c(21,28): warning C4013: 'realloc' undefined; assuming extern returning int
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\DynamicArray.c(21,1): warning C4047: 'initializing': 'TElement *' differs in levels of indirection from 'int'
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\DynamicArray.c(37,9): warning C4013: 'free' undefined; assuming extern returning int
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\DynamicArray.c(48,1): warning C4047: 'initializing': 'TElement *' differs in levels of indirection from 'int'
+  main.c
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\main.c(29,11): warning C4013: 'system' undefined; assuming extern returning int
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\main.c(20,16): warning C4101: 'repoCopy': unreferenced local variable
+  Participant.c
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\Participant.c(80,22): warning C4013: 'Validprenume' undefined; assuming extern returning int
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\Participant.c(80,45): warning C4013: 'Validnume' undefined; assuming extern returning int
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\Participant.c(80,65): warning C4013: 'Validscor' undefined; assuming extern returning int
+  Repository.c
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\Repository.c(186,5): warning C4013: 'strcmp' undefined; assuming extern returning int
+  Service.c
+  Generating Code...
+C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\Assignment 2-3\Participant.c(75): warning C4172: returning address of local variable or temporary: final_string
+  Assignment 2-3.vcxproj -> C:\Users\daria\Downloads\a23-911-Boanca-Tudor\a23-911-Boanca-Tudor\Assignment 2-3\x64\Debug\lab2.exe

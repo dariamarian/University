@@ -1,0 +1,22 @@
+[2022-05-07 22:06:23] [info] Start Program:
+Path:"C:\Users\daria\OneDrive\Desktop\Tema1011\x64\Debug\Tema1011.exe"
+Arguments:
+Working directory: "C:\Users\daria\OneDrive\Desktop\Tema1011\Tema1011\"
+Modules: Selected: C:\Users\daria\OneDrive\Desktop\Tema1011\x64\Debug\Tema1011.exe Excluded: 
+Sources: Selected: C:\Users\daria\OneDrive\Desktop\Tema1011\Tema1011 Excluded: UI Exceptii 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\daria\AppData\Local\Temp\kqxww4ij.1is 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-05-07 22:06:23] [info] Module: C:\Users\daria\OneDrive\Desktop\Tema1011\x64\Debug\Tema1011.exe is selected because it matches selected pattern: C:\Users\daria\OneDrive\Desktop\Tema1011\x64\Debug\Tema1011.exe
+[2022-05-07 22:06:23] [info] ----------------------------------------------------
+[2022-05-07 22:06:23] [info] Coverage binary generated in file: C:\Users\daria\AppData\Local\Temp\kqxww4ij.1is
+[2022-05-07 22:06:23] [info] ----------------------------------------------------
+[2022-05-07 22:06:23] [error] Your program stop with error code: -1073741515

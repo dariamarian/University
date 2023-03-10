@@ -1,0 +1,21 @@
+[2022-03-11 17:05:36] [info] Start Program:
+Path:"C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\x64\Debug\lab2.exe"
+Arguments:
+Working directory: "C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2\"
+Modules: Selected: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\x64\Debug\lab2.exe Excluded: 
+Sources: Selected: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2 Excluded: ui 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\daria\AppData\Local\Temp\c4pqc2l3.fus 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-11 17:05:36] [info] Module: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\x64\Debug\lab2.exe is selected because it matches selected pattern: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\x64\Debug\lab2.exe
+[2022-03-11 17:05:39] [info] ----------------------------------------------------
+[2022-03-11 17:05:39] [info] Coverage binary generated in file: C:\Users\daria\AppData\Local\Temp\c4pqc2l3.fus
+[2022-03-11 17:05:39] [info] ----------------------------------------------------

@@ -1,0 +1,5 @@
+﻿  prob1.cpp
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Algoritmica grafelor\lab5\prob1\prob1\prob1.cpp(41,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Algoritmica grafelor\lab5\prob1\prob1\prob1.cpp(73,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Algoritmica grafelor\lab5\prob1\prob1\prob1.cpp(90,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  prob1.vcxproj -> C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Algoritmica grafelor\lab5\prob1\x64\Debug\prob1.exe

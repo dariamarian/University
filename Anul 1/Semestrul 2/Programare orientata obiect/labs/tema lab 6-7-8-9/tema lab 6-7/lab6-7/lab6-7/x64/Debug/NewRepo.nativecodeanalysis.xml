@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7\lab6-7\lab6-7\</FILEPATH>
+      <FILENAME>AbstractRepo.h</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'AbstractRepo::Prob' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>AbstractRepo::{ctor}</FUNCTION>
+    <DECORATED>??0AbstractRepo@@QEAA@XZ</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>AbstractRepo::Prob</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

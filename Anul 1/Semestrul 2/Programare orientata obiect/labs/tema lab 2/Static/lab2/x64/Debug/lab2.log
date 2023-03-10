@@ -1,0 +1,11 @@
+﻿  repo.c
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2\repo.c(74,31): warning C4013: 'creearePersoana' undefined; assuming extern returning int
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2\repo.c(84,2): warning C4311: 'type cast': pointer truncation from 'Persoana *' to 'int'
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2\repo.c(86,2): warning C4311: 'type cast': pointer truncation from 'Persoana *' to 'int'
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2\repo.c(89,2): warning C4311: 'type cast': pointer truncation from 'Persoana *' to 'int'
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2\repo.c(91,2): warning C4311: 'type cast': pointer truncation from 'Persoana *' to 'int'
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2\repo.c(93,2): warning C4311: 'type cast': pointer truncation from 'Persoana *' to 'int'
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2\repo.c(95,2): warning C4311: 'type cast': pointer truncation from 'Persoana *' to 'int'
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2\repo.c(74,1): warning C4047: 'initializing': 'Persoana *' differs in levels of indirection from 'int'
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\lab2\repo.c(75,1): warning C4047: 'initializing': 'Persoana *' differs in levels of indirection from 'int'
+  lab2.vcxproj -> C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\lab2\x64\Debug\lab2.exe

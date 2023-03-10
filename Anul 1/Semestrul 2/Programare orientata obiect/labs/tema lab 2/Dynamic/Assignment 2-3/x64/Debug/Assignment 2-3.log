@@ -1,0 +1,33 @@
+﻿  Console.c
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.h(21,37): warning C4030: first formal parameter list longer than the second list
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.h(21,37): warning C4028: formal parameter 1 different from declaration
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.h(22,38): warning C4030: first formal parameter list longer than the second list
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.h(22,38): warning C4028: formal parameter 1 different from declaration
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.c(241,23): warning C4013: 'Validscor' undefined; assuming extern returning int
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.c(335,14): warning C4013: 'SortByNamAsc' undefined; assuming extern returning int
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.c(350,15): warning C4013: 'SortByNamDesc' undefined; assuming extern returning int
+  DynamicArray.c
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\DynamicArray.c(5,48): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\DynamicArray.c(5,70): warning C4312: 'type cast': conversion from 'int' to 'DynamicArray *' of greater size
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\DynamicArray.c(10,70): warning C4312: 'type cast': conversion from 'int' to 'TElement *' of greater size
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\DynamicArray.c(19,28): warning C4013: 'realloc' undefined; assuming extern returning int
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\DynamicArray.c(19,1): warning C4047: 'initializing': 'TElement *' differs in levels of indirection from 'int'
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\DynamicArray.c(34,9): warning C4013: 'free' undefined; assuming extern returning int
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\DynamicArray.c(45,1): warning C4047: 'initializing': 'TElement *' differs in levels of indirection from 'int'
+  main.c
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.h(21,37): warning C4030: first formal parameter list longer than the second list
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.h(21,37): warning C4028: formal parameter 1 different from declaration
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.h(22,38): warning C4030: first formal parameter list longer than the second list
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Console.h(22,38): warning C4028: formal parameter 1 different from declaration
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\main.c(29,11): warning C4013: 'system' undefined; assuming extern returning int
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\main.c(20,16): warning C4101: 'repoCopy': unreferenced local variable
+  Participant.c
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Participant.c(79,22): warning C4013: 'Validprenume' undefined; assuming extern returning int
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Participant.c(79,45): warning C4013: 'Validnume' undefined; assuming extern returning int
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Participant.c(79,65): warning C4013: 'Validscor' undefined; assuming extern returning int
+  Repository.c
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Repository.c(177,5): warning C4013: 'strcmp' undefined; assuming extern returning int
+  Service.c
+  Generating Code...
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\Assignment 2-3\Participant.c(74): warning C4172: returning address of local variable or temporary: final_string
+  Assignment 2-3.vcxproj -> C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab2\Dynamic\x64\Debug\lab2.exe

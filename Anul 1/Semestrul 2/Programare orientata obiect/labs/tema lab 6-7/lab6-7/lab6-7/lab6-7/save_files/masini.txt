@@ -1,0 +1,5 @@
+1  inm,prod,model,tip
+4  ,CJ13MGN,Mercedes,E-Class
+5  ,B27INF,Nissan,Juke
+6  ,SV99IDK,Mercedes,S-Class
+33 d,d,d,fd

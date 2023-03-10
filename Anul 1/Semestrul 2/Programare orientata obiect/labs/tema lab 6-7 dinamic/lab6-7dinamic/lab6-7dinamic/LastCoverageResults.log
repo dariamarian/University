@@ -1,0 +1,21 @@
+[2022-04-07 16:21:50] [info] Start Program:
+Path:"C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7 dinamic\lab6-7dinamic\x64\Debug\lab6-7dinamic.exe"
+Arguments:
+Working directory: "C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7 dinamic\lab6-7dinamic\lab6-7dinamic\"
+Modules: Selected: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7 dinamic\lab6-7dinamic\x64\Debug\lab6-7dinamic.exe Excluded: 
+Sources: Selected: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7 dinamic\lab6-7dinamic\lab6-7dinamic Excluded: UI 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\daria\AppData\Local\Temp\2bzthd2r.44k 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-07 16:21:50] [info] Module: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7 dinamic\lab6-7dinamic\x64\Debug\lab6-7dinamic.exe is selected because it matches selected pattern: C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab 6-7 dinamic\lab6-7dinamic\x64\Debug\lab6-7dinamic.exe
+[2022-04-07 16:21:53] [info] ----------------------------------------------------
+[2022-04-07 16:21:53] [info] Coverage binary generated in file: C:\Users\daria\AppData\Local\Temp\2bzthd2r.44k
+[2022-04-07 16:21:53] [info] ----------------------------------------------------

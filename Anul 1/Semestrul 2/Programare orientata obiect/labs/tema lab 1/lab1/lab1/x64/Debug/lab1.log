@@ -1,0 +1,6 @@
+﻿  lab1.cpp
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab1\lab1\lab1\lab1.cpp(19,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab1\lab1\lab1\lab1.cpp(21,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab1\lab1\lab1\lab1.cpp(22,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab1\lab1\lab1\lab1.cpp(18,15): warning C4101: 'var': unreferenced local variable
+  lab1.vcxproj -> C:\Users\daria\OneDrive\Desktop\Faculta\sem 2\Programare orientata obiect\Laborator\tema lab1\lab1\x64\Debug\lab1.exe

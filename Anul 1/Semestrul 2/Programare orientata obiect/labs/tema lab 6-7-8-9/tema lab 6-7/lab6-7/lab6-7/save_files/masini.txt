@@ -1,0 +1,8 @@
+1  inm,prod,model,tip
+3   HD26PAZ,BMW,I5,nou
+4   CJ13MGN,Mercedes,E-Class,nou
+5   B27INF,Nissan,Juke,vechi
+6   SV99IDK,Mercedes,S-Class,buna
+14  inm,prod,model,tip
+23456 fg,gf,hh,ggh
+23 sdf,dsfsgd,sdf,sdf
