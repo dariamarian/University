@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="439.0" prefWidth="225.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guireteadesocializare.LogInSignupController">
+   <children>
+      <AnchorPane fx:id="loginPane" layoutX="90.0" layoutY="16.0" prefHeight="439.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="30.0" layoutY="18.0" prefHeight="49.0" prefWidth="161.0" text="Welcome!" textAlignment="CENTER" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="47.0" layoutY="62.0" prefHeight="25.0" prefWidth="127.0" text="please log-in below:" textAlignment="CENTER" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="emailLoginTextField" layoutX="33.0" layoutY="150.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="143.0" />
+            <Button fx:id="LogInButton" layoutX="60.0" layoutY="254.0" mnemonicParsing="false" onAction="#onLogInButtonAction" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #e79de9;" text="Log in">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="SignUpButtonFromLogin" layoutX="60.0" layoutY="380.0" mnemonicParsing="false" onAction="#onSignUpButtonFromLoginAction" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #e79de9;" text="Sign up">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="72.0" layoutY="126.0" prefHeight="23.0" prefWidth="65.0" text="Email:" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="185.0" prefHeight="23.0" prefWidth="107.0" text="Password:" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="350.0" prefHeight="23.0" prefWidth="107.0" text="Not a user?" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordLoginTextField" layoutX="30.0" layoutY="216.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="signupPane" layoutX="-15.0" layoutY="11.0" prefHeight="439.0" prefWidth="218.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="40.0" layoutY="36.0" prefHeight="25.0" prefWidth="136.0" text="please sign-up below:" textAlignment="CENTER" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="SignUpButton" layoutX="64.0" layoutY="323.0" mnemonicParsing="false" onAction="#onSignUpButtonAction" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #e79de9;" text="Sign Up">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="79.0" layoutY="166.0" prefHeight="23.0" prefWidth="54.0" text="Email:" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="67.0" layoutY="211.0" prefHeight="23.0" prefWidth="77.0" text="Password:" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="firstnameSignupTextField" layoutX="36.0" layoutY="95.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="143.0" />
+            <Label layoutX="68.0" layoutY="72.0" prefHeight="23.0" prefWidth="84.0" text="First name:" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="LogInButtonFromSignup" layoutX="66.0" layoutY="390.0" mnemonicParsing="false" onAction="#onLogInButtonFromSignupAction" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #e79de9;" text="Log In">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="34.0" layoutY="360.0" prefHeight="23.0" prefWidth="143.0" text="Already a user?" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="119.0" prefHeight="23.0" prefWidth="84.0" text="Last name:" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="lastnameSignupTextField" layoutX="36.0" layoutY="143.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="143.0" />
+            <TextField fx:id="emailSignupTextField" layoutX="34.0" layoutY="191.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="143.0" />
+            <Label layoutX="42.0" layoutY="261.0" prefHeight="23.0" prefWidth="136.0" text="Repeat password:" textFill="#e79de9">
+               <font>
+                  <Font name="Georgia Bold" size="14.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordSignupTextField" layoutX="34.0" layoutY="234.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="143.0" />
+            <PasswordField fx:id="repeatpasswordSignupTextField" layoutX="36.0" layoutY="284.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="143.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

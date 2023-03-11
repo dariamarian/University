@@ -1,0 +1,69 @@
+% Enunt: Definiti un predicat care transforma produsul unui numar
+% reprezentat cifra cu cifra intr-o lista cu o anumita cifra, fara a
+% transforma lista intr-un numar
+
+
+
+% adauga elementul e in lista
+% adauga(L:lista, E:element, Rez: lista)
+% L:lista in care se adauga elementul
+% E:elementul care se adauga
+% Rez:lista rezultata
+% (i, i, o)
+% determinist
+adauga([], E, [E]).
+adauga([H | T], E, [H | Rez]) :-
+                     adauga(T, E, Rez).
+
+
+% inversul unei liste
+% invers(L:lista, Rez: lista)
+% L:lista pentru care se determina inversul
+% Rez:lista rezultata
+% (i, o)
+% determinist
+invers([], []).
+invers([H | T], Rez) :-
+                     invers(T, L),
+                     adauga(L, H, Rez).
+
+% produs_aux(L:lista,N:numar,C:numar,R:lista)
+% L:lista in care se afla numarul pt care calculam produsul
+% N:numarul cu care inmultim
+% C:cifra carry(ce tinem in minte)
+% R:lista rezultata
+% (i,i,i,o)
+% determinist
+produs_aux([],_,C,[]):-C=<0.    %daca lista s-a epuizat si c=0, se termina programul.
+produs_aux([],_,C,[C]):-C>0,C<10.   %daca lista s-a epuizat si c e o cifra, atunci asta e ultima cifra din rezultat si se incheie executia
+produs_aux([],_,C,[R|Rs]):-    %daca lista s-a epuizat si c>10, urm cifra din rezultat e c%10
+                     C>=10,
+                     R is C mod 10,
+                     Q is C div 10,
+                     produs_aux([],_,Q,Rs).
+produs_aux([D|Ds],N,C,[R|Rs]):-    % daca lista nu s-a terminat, se calculeaza ultima cifra inmultita cu N la care se adauga valoarea din c (carry) apoi se continua recursivitatea
+                     T is D*N+C,
+                     R is T mod 10,
+                     Q is T div 10,
+                     produs_aux(Ds,N,Q,Rs).
+
+
+% produs(L:lista,N:numar,Rez:lista)
+% L:lista in care se afla numarul
+% N:numarul cu care inmultim
+% Rez:lista rezultata
+% (i,i,o)
+% determinist
+produs(L,N,Rez):-
+                     invers(L,Rez2),
+                     produs_aux(Rez2,N,0,RezProdus),
+                     invers(RezProdus,Rez).
+
+% Exemple:
+% produs([1,2,3],2,R). => R=[2,4,6]
+% produs([1,9,3,5,9,9],2,R). => R=[3,8,7,1,9,8]
+
+
+
+
+
