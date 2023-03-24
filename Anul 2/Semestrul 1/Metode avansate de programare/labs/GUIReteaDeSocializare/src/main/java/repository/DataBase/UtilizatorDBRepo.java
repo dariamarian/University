@@ -65,7 +65,7 @@ public class UtilizatorDBRepo extends AbstractDBRepo<Utilizator> implements Upda
             ps.setString(2,entity.getLastName());
             ps.setString(3,entity.getEmail());
             ps.setString(4,entity.getPassword());
-            ps.setLong(4,entity.getId());
+            ps.setLong(5,entity.getId());
             ps.executeUpdate();
         }
         if (foundUserWithSameEmail)
