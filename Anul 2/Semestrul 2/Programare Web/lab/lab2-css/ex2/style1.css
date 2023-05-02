@@ -1,0 +1,42 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+}
+
+.header, .main-div, .footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+p.header {
+    background-color: orchid;
+    height: 20%;
+}
+
+ol.menu {
+    background-color: hotpink;
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+.menu li {
+    display: inline-block;
+    border-right: 2px solid black;
+    padding-left: 4.5%;
+    padding-right: 8.38%;
+}
+
+div.main-div {
+    background-color: lightpink;
+    height: 60%;
+}
+
+footer.footer {
+    background-color: mediumvioletred;
+    height: 17%;
+}

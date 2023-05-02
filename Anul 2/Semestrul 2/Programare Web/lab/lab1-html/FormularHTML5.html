@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Formular pentru rezervări</title>
+</head>
+
+<body>
+<img src="imagine.jpg" alt="hotel" width="250">
+<form>
+  <table>
+    <tr>
+      <td colspan="4"><h3>Completați câmpurile de mai jos pentru a realiza o rezervare:</h3></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <fieldset>
+          <legend> Note: </legend>
+            * Câmpuri obligatorii. <br>
+            **id client e completat de staff.
+        </fieldset>
+    </tr>
+
+    <tr>
+      <td colspan="4">Detalii despre camere</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <table>
+          <tr>
+            <td>
+              <ol type="I">
+                <li>
+                  Cameră dublă
+                  <ul>
+                    <li>un pat matrimonial</li>
+                    <li>baie cu duș</li>
+                    <li>televizor smart</li>
+                  </ul>
+                </li>
+                <li>
+                  Cameră triplă
+                  <ul>
+                    <li>un pat matrimonial</li>
+                    <li>un pat single</li>
+                    <li>baie cu duș</li>
+                    <li>televizor smart</li>
+                  </ul>
+                </li>
+                <li>
+                  Cameră family
+                  <ul>
+                    <li>un pat matrimonial</li>
+                    <li>doua paturi single</li>
+                    <li>un pătuț de copii la cerere</li>
+                    <li>o baie cu duș</li>
+                    <li>o baie cu cadă</li>
+                    <li>televizor smart</li>
+                    <li>un mini loc de joacă pentru copii</li>
+                  </ul>
+                </li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">Date personale</td>
+    </tr>
+    <tr>
+      <td colspan="2">**id client:</td>
+      <td colspan="2"><input type="text" readonly></td>
+    </tr>
+    <tr>
+      <td>*Nume:</td>
+      <td><input type="text"></td>
+      <td>*Prenume:</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td>Sex:</td>
+      <td><input type="radio" name="sex" value="F">Femeie
+        <input type="radio" name="sex" value="B">Barbat</td>
+      <td>*Adresă:</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td>Cod postal:</td>
+      <td><input type="text"></td>
+      <td>*Județ:</td>
+      <td><select id="judete" name="judete">
+        <option value="alba">Alba</option>
+        <option value="arad">Arad</option>
+        <option value="arges">Arges</option>
+        <option value="bacau">Bacau</option>
+        <option value="bihor">Bihor</option>
+        <option value="bn">Bistrita-Nasaud</option>
+        <option value="botosani">Botosani</option>
+        <option value="braila">Braila</option>
+        <option value="brasov">Brasov</option>
+        <option value="buzau">Buzau</option>
+        <option value="calarasi">Calarasi</option>
+        <option value="cs">Caras-Severin</option>
+        <option value="cluj">Cluj</option>
+        <option value="constanta">Constanta</option>
+        <option value="covasna">Covasna</option>
+        <option value="dambovita">Dambovita</option>
+        <option value="dolj">Dolj</option>
+        <option value="galati">Galati</option>
+        <option value="giurgiu">Giurgiu</option>
+        <option value="gorj">Gorj</option>
+        <option value="harghita">Harghita</option>
+        <option value="hunedoara">Hunedoara</option>
+        <option value="ialomita">Ialomita</option>
+        <option value="iasi">Iasi</option>
+        <option value="ilfov">Ilfov</option>
+        <option value="maramures">Maramures</option>
+        <option value="mehedinti">Mehedinti</option>
+        <option value="mures">Mures</option>
+        <option value="neamt">Neamt</option>
+        <option value="olt">Olt</option>
+        <option value="prahova">Prahova</option>
+        <option value="salaj">Salaj</option>
+        <option value="sm">Satu-Mare</option>
+        <option value="sibiu">Sibiu</option>
+        <option value="suceava">Suceava</option>
+        <option value="teleorman">Teleorman</option>
+        <option value="timis">Timis</option>
+        <option value="tulcea">Tulcea</option>
+        <option value="valcea">Valcea</option>
+        <option value="vaslui">Vaslui</option>
+        <option value="vrancea">Vrancea</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td>*Oraș:</td>
+      <td><input type="text"></td>
+      <td>*Țară:</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td>*Email:</td>
+      <td><input type="text"></td>
+      <td>*Telefon:</td>
+      <td><input type="text" maxlength = 10 size="15"></td>
+    </tr>
+    <tr>
+      <td colspan="4">Datele rezervării</td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <table>
+          <tr>
+            <th>Denumire</th>
+            <th>Cantitate</th>
+          </tr>
+          <tr>
+            <td>Cameră dublă</td>
+            <td>
+              <select id="cantitate" name="cantitate">
+                <option value="zero">0</option>
+                <option value="una">1</option>
+                <option value="doua">2</option>
+                <option value="trei">3</option>
+                <option value="patru">4</option>
+                <option value="cinci">5</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Cameră triplă</td>
+            <td>
+              <select id="cantitate1" name="cantitate1">
+                <option value="zero">0</option>
+                <option value="una">1</option>
+                <option value="doua">2</option>
+                <option value="trei">3</option>
+                <option value="patru">4</option>
+                <option value="cinci">5</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Cameră family</td>
+            <td>
+              <select id="cantitate2" name="cantitate2">
+                <option value="zero">0</option>
+                <option value="una">1</option>
+                <option value="doua">2</option>
+                <option value="trei">3</option>
+                <option value="patru">4</option>
+                <option value="cinci">5</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>*Planul de mese:</td>
+      <td colspan="3"><input type="radio" name="mealplan" value="Mic dejun" checked> Mic dejun
+        <input type="radio" name="mealplan" value="Demipensiune"> Demipensiune
+        <input type="radio" name="mealplan" value="All inclusive"> All inclusive</td>
+    </tr>
+    <tr>
+      <td>Facilități extra:</td>
+      <td colspan="3"><input type="checkbox" name="preferinte" value="Da">Balcon
+        <input type="checkbox" name="preferinte" value="mare">Vedere la mare
+        <input type="checkbox" name="preferinte" value="munte">Vedere la munte
+        <input type="checkbox" name="preferinte" value="animal">Animal de companie</td>
+    </tr>
+    <tr>
+      <td>*Check-in:</td>
+      <td><input type="text"></td>
+      <td>*Check-out:</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td> Observații:</td>
+      <td colspan="3"><textarea></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="4"><input type="checkbox" name="gdpr" value="gdpr" checked disabled>Sunt de acord cu regulamentul general privind <a href="https://www.dataprotection.ro/servlet/ViewDocument?id=1262" target="_blank">protecția datelor cu caracter personal</a></td>
+    </tr></table>
+    <br>
+  <div><input type="button" value="Finalizați rezervarea" onclick="alert('Rezervare făcută cu succes!')"></div>
+</form>
+</body>
+</html>
