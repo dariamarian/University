@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "server", "proiectServerClientCsharp\server.csproj", "{D344A46A-028B-49FF-B624-CB4DCF2A665E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "client", "client\client.csproj", "{A4D0F1C7-9D0A-4AF3-BF89-D0C1BFF2160E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angajatModel", "angajatModel\angajatModel.csproj", "{9374FF39-EF23-482B-A568-61ABAB610DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angajatNetworking", "angajatNetworking\angajatNetworking.csproj", "{C803079D-648D-4440-8431-20D99EFA7911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angajatPersistence", "angajatPersistence\angajatPersistence.csproj", "{733EA2D2-1000-4426-A3F5-13F9BE77B13D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angajatServices", "angajatServices\angajatServices.csproj", "{FF8E5587-1BC1-4074-B04C-EC257ADB8050}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D344A46A-028B-49FF-B624-CB4DCF2A665E}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{D344A46A-028B-49FF-B624-CB4DCF2A665E}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{D344A46A-028B-49FF-B624-CB4DCF2A665E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D344A46A-028B-49FF-B624-CB4DCF2A665E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D0F1C7-9D0A-4AF3-BF89-D0C1BFF2160E}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D0F1C7-9D0A-4AF3-BF89-D0C1BFF2160E}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{A4D0F1C7-9D0A-4AF3-BF89-D0C1BFF2160E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D0F1C7-9D0A-4AF3-BF89-D0C1BFF2160E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9374FF39-EF23-482B-A568-61ABAB610DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9374FF39-EF23-482B-A568-61ABAB610DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9374FF39-EF23-482B-A568-61ABAB610DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9374FF39-EF23-482B-A568-61ABAB610DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C803079D-648D-4440-8431-20D99EFA7911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C803079D-648D-4440-8431-20D99EFA7911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C803079D-648D-4440-8431-20D99EFA7911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C803079D-648D-4440-8431-20D99EFA7911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733EA2D2-1000-4426-A3F5-13F9BE77B13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733EA2D2-1000-4426-A3F5-13F9BE77B13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733EA2D2-1000-4426-A3F5-13F9BE77B13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733EA2D2-1000-4426-A3F5-13F9BE77B13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8E5587-1BC1-4074-B04C-EC257ADB8050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8E5587-1BC1-4074-B04C-EC257ADB8050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8E5587-1BC1-4074-B04C-EC257ADB8050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8E5587-1BC1-4074-B04C-EC257ADB8050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CDC0FA7-0237-4DDF-BB4F-0A010451665F}
+	EndGlobalSection
+EndGlobal

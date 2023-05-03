@@ -1,0 +1,438 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\client\\client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj",
+        "projectName": "angajatModel",
+        "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj",
+        "packagesPath": "C:\\Users\\daria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatNetworking\\angajatNetworking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatNetworking\\angajatNetworking.csproj",
+        "projectName": "angajatNetworking",
+        "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatNetworking\\angajatNetworking.csproj",
+        "packagesPath": "C:\\Users\\daria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatNetworking\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj"
+              },
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatServices\\angajatServices.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatServices\\angajatServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatPersistence\\angajatPersistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatPersistence\\angajatPersistence.csproj",
+        "projectName": "angajatPersistence",
+        "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatPersistence\\angajatPersistence.csproj",
+        "packagesPath": "C:\\Users\\daria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatPersistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatServices\\angajatServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatServices\\angajatServices.csproj",
+        "projectName": "angajatServices",
+        "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatServices\\angajatServices.csproj",
+        "packagesPath": "C:\\Users\\daria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\client\\client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\client\\client.csproj",
+        "projectName": "client",
+        "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\client\\client.csproj",
+        "packagesPath": "C:\\Users\\daria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj"
+              },
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatServices\\angajatServices.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatServices\\angajatServices.csproj"
+              },
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\proiectServerClientCsharp\\server.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\proiectServerClientCsharp\\server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\proiectServerClientCsharp\\server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\proiectServerClientCsharp\\server.csproj",
+        "projectName": "server",
+        "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\proiectServerClientCsharp\\server.csproj",
+        "packagesPath": "C:\\Users\\daria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\proiectServerClientCsharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatModel\\angajatModel.csproj"
+              },
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatNetworking\\angajatNetworking.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatNetworking\\angajatNetworking.csproj"
+              },
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatPersistence\\angajatPersistence.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatPersistence\\angajatPersistence.csproj"
+              },
+              "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatServices\\angajatServices.csproj": {
+                "projectPath": "C:\\Users\\daria\\Github\\University\\Anul 2\\Semestrul 2\\Metode de proiectare si programare\\labs\\Tema 4-proiect Server-Client Csharp\\proiectSCcsharp\\angajatServices\\angajatServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

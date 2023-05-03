@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="539.0" prefWidth="683.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="angajat.controller.MainController">
+   <children>
+      <Label layoutX="289.0" layoutY="1.0" text="Spectacole:" textFill="#f24ca7">
+         <font>
+            <Font name="Georgia Bold" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="spectacoleTable" layoutX="14.0" layoutY="25.0" prefHeight="200.0" prefWidth="655.0" style="-fx-border-color: #e79de9;">
+         <columns>
+            <TableColumn fx:id="artistNameColumn" prefWidth="146.0" text="Artist Name" />
+            <TableColumn fx:id="dateColumn" prefWidth="174.66665649414062" text="Date" />
+            <TableColumn fx:id="placeColumn" prefWidth="131.33331298828125" text="Place" />
+            <TableColumn fx:id="availableSeatsColumn" prefWidth="105.33331298828125" text="Available" />
+            <TableColumn fx:id="soldSeatsColumn" prefWidth="95.99993896484375" text="Sold" />
+         </columns>
+      </TableView>
+      <Button fx:id="LogOutButton" layoutX="621.0" layoutY="490.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#logoutAction" prefHeight="28.0" prefWidth="32.0">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="57.0" onMouseClicked="#logoutAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logout.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TableView fx:id="spectacoleCautateTable" layoutX="14.0" layoutY="278.0" prefHeight="200.0" prefWidth="655.0" style="-fx-border-color: #e79de9;">
+         <columns>
+            <TableColumn fx:id="artistNameColumn2" prefWidth="146.0" text="Artist Name" />
+            <TableColumn fx:id="timeColumn" prefWidth="174.66665649414062" text="Time" />
+            <TableColumn fx:id="placeColumn2" prefWidth="159.99993896484375" text="Place" />
+            <TableColumn fx:id="availableSeatsColumn2" prefWidth="173.33334350585938" text="Available" />
+         </columns>
+      </TableView>
+      <DatePicker fx:id="spectacolDatePicker" layoutX="13.0" layoutY="232.0" onAction="#onSearchSpectacol" prefHeight="28.0" prefWidth="604.0" style="-fx-background-color: #e79de9;" />
+      <TextField fx:id="cumparatorNameTextField" layoutX="14.0" layoutY="489.0" promptText="Numele cumparatorului" />
+      <TextField fx:id="nrSeatsTextField" layoutX="210.0" layoutY="489.0" promptText="Numarul de locuri" />
+      <Button fx:id="cumparaBiletButton" layoutX="440.0" layoutY="487.0" mnemonicParsing="false" onAction="#onCumparaBiletButton" style="-fx-background-color: #f24ca7;" text="Cumpara Bilet" />
+      <Button fx:id="refreshButton" layoutX="626.0" layoutY="228.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onRefresh" prefHeight="33.0" prefWidth="39.0" style="-fx-background-color: white;" text="Refresh">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@refresh.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

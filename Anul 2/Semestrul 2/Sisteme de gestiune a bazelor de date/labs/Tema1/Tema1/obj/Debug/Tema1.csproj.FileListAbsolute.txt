@@ -1,0 +1,12 @@
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\bin\Debug\Tema1.exe.config
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\bin\Debug\Tema1.exe
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\bin\Debug\Tema1.pdb
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\obj\Debug\Tema1.csproj.AssemblyReference.cache
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\obj\Debug\Tema1.csproj.SuggestedBindingRedirects.cache
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\obj\Debug\Tema1.Form1.resources
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\obj\Debug\Tema1.Properties.Resources.resources
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\obj\Debug\Tema1.csproj.GenerateResource.cache
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\obj\Debug\Tema1.csproj.CoreCompileInputs.cache
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\obj\Debug\Tema1.exe
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\obj\Debug\Tema1.pdb
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema1\Tema1\obj\Debug\Tema1.FormAdaugaComanda.resources
