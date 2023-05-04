@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "protobuf/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.22.3",
+          "angajatModel": "1.0.0",
+          "angajatServices": "1.0.0"
+        },
+        "runtime": {
+          "protobuf.dll": {}
+        }
+      },
+      "Google.Protobuf/3.22.3": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.22.3.0",
+            "fileVersion": "3.22.3.0"
+          }
+        }
+      },
+      "angajatModel/1.0.0": {
+        "runtime": {
+          "angajatModel.dll": {}
+        }
+      },
+      "angajatServices/1.0.0": {
+        "dependencies": {
+          "angajatModel": "1.0.0"
+        },
+        "runtime": {
+          "angajatServices.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "protobuf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.22.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uyWJZTS0N3gw35jtm/++1jAJNPkFP92QYdxgiC0yv8vQaOi8gaJZ8PhCnjmN6JbobJcCFPBd0cGkmCh6QYOt6Q==",
+      "path": "google.protobuf/3.22.3",
+      "hashPath": "google.protobuf.3.22.3.nupkg.sha512"
+    },
+    "angajatModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "angajatServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

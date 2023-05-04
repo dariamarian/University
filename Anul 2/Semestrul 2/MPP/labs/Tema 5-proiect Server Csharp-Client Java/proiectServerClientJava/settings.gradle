@@ -1,0 +1,7 @@
+rootProject.name = "proiectServerClientJava"
+include 'Persistance'
+include 'Domain'
+include 'Server'
+include 'Services'
+include 'Networking'
+include 'AngajatFX'

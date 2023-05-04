@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Google.Protobuf/3.22.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "angajatModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/angajatModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/angajatModel.dll": {}
+        }
+      },
+      "angajatServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "angajatModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/angajatServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/angajatServices.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Google.Protobuf/3.22.3": {
+      "sha512": "uyWJZTS0N3gw35jtm/++1jAJNPkFP92QYdxgiC0yv8vQaOi8gaJZ8PhCnjmN6JbobJcCFPBd0cGkmCh6QYOt6Q==",
+      "type": "package",
+      "path": "google.protobuf/3.22.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.22.3.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.pdb",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/net5.0/Google.Protobuf.dll",
+        "lib/net5.0/Google.Protobuf.pdb",
+        "lib/net5.0/Google.Protobuf.xml",
+        "lib/netstandard1.1/Google.Protobuf.dll",
+        "lib/netstandard1.1/Google.Protobuf.pdb",
+        "lib/netstandard1.1/Google.Protobuf.xml",
+        "lib/netstandard2.0/Google.Protobuf.dll",
+        "lib/netstandard2.0/Google.Protobuf.pdb",
+        "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
+    "angajatModel/1.0.0": {
+      "type": "project",
+      "path": "../angajatModel/angajatModel.csproj",
+      "msbuildProject": "../angajatModel/angajatModel.csproj"
+    },
+    "angajatServices/1.0.0": {
+      "type": "project",
+      "path": "../angajatServices/angajatServices.csproj",
+      "msbuildProject": "../angajatServices/angajatServices.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Google.Protobuf >= 3.22.3",
+      "angajatModel >= 1.0.0",
+      "angajatServices >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\daria\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\Anul 2\\sem 2\\Medii de proiectare si programare\\lab\\mpp-proiect-csharp-dariamarian\\proiectSCcsharp\\protobuf\\protobuf.csproj",
+      "projectName": "protobuf",
+      "projectPath": "C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\Anul 2\\sem 2\\Medii de proiectare si programare\\lab\\mpp-proiect-csharp-dariamarian\\proiectSCcsharp\\protobuf\\protobuf.csproj",
+      "packagesPath": "C:\\Users\\daria\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\Anul 2\\sem 2\\Medii de proiectare si programare\\lab\\mpp-proiect-csharp-dariamarian\\proiectSCcsharp\\protobuf\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\daria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\Anul 2\\sem 2\\Medii de proiectare si programare\\lab\\mpp-proiect-csharp-dariamarian\\proiectSCcsharp\\angajatModel\\angajatModel.csproj": {
+              "projectPath": "C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\Anul 2\\sem 2\\Medii de proiectare si programare\\lab\\mpp-proiect-csharp-dariamarian\\proiectSCcsharp\\angajatModel\\angajatModel.csproj"
+            },
+            "C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\Anul 2\\sem 2\\Medii de proiectare si programare\\lab\\mpp-proiect-csharp-dariamarian\\proiectSCcsharp\\angajatServices\\angajatServices.csproj": {
+              "projectPath": "C:\\Users\\daria\\OneDrive\\Desktop\\Faculta\\Anul 2\\sem 2\\Medii de proiectare si programare\\lab\\mpp-proiect-csharp-dariamarian\\proiectSCcsharp\\angajatServices\\angajatServices.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Google.Protobuf": {
+            "target": "Package",
+            "version": "[3.22.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
