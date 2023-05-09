@@ -1,0 +1,58 @@
+syntax="proto3";
+package Chat.protocol;
+
+option java_package = "proiectServerClientJava.network.protobuffprotocol";
+option java_outer_classname = "ClientProtobufs";
+
+message Angajat{
+     int64 id=1;
+     string name=2;
+     string username=3;
+     string password=4;
+}
+
+message Spectacol{
+     int64 id=1;
+     string artistName=2;
+     string date=3;
+     string time=4;
+     string place=5;
+     int32 availableSeats=6;
+     int32 soldSeats=7;
+}
+
+message Bilet{
+  int64 id=1;
+  string cumparatorName=2;
+  int64 idSpectacol=3;
+  int32 nrSeats=4;
+}
+
+message AppRequest {
+  enum Type {Unkown=0; Login = 1; Logout = 2; AddBilet=3; GetAllSpectacole=4; GetSpectacol=5;}
+
+  // Identifies which request is filled in.
+   Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+   oneof payload{
+       Angajat angajat = 2;
+       Spectacol spectacol = 3;
+       Bilet bilet = 4;
+       int64 idSpectacol = 5;
+  }
+}
+
+message AppResponse{
+   enum Type { Unknown=0; Ok = 1; Error = 2; SoldBilet = 3; GetAllSpectacole=4; GetSpectacol=5;}
+
+     // Identifies which request is filled in.
+      Type type = 1;
+
+     // One of the following will be filled in, depending on the type.
+      string error = 2;
+      Angajat angajat = 3;
+      Spectacol spectacol = 4;
+      repeated Spectacol spectacole = 5;
+      Bilet bilet = 6;
+}
