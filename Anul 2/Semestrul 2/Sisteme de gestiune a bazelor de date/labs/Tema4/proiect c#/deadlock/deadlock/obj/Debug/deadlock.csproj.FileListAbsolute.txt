@@ -1,0 +1,10 @@
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema4\proiect c#\deadlock\deadlock\obj\Debug\deadlock.csproj.AssemblyReference.cache
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema4\proiect c#\deadlock\deadlock\obj\Debug\deadlock.csproj.SuggestedBindingRedirects.cache
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema4\proiect c#\deadlock\deadlock\obj\Debug\deadlock.Properties.Resources.resources
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema4\proiect c#\deadlock\deadlock\obj\Debug\deadlock.csproj.GenerateResource.cache
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema4\proiect c#\deadlock\deadlock\obj\Debug\deadlock.csproj.CoreCompileInputs.cache
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema4\proiect c#\deadlock\deadlock\bin\Debug\deadlock.exe.config
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema4\proiect c#\deadlock\deadlock\bin\Debug\deadlock.exe
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema4\proiect c#\deadlock\deadlock\bin\Debug\deadlock.pdb
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema4\proiect c#\deadlock\deadlock\obj\Debug\deadlock.exe
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 2\sem 2\Sisteme de gestiune a bazelor de date\lab\teme\Tema4\proiect c#\deadlock\deadlock\obj\Debug\deadlock.pdb

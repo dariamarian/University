@@ -1,0 +1,8 @@
+rootProject.name = "proiect"
+include 'Persistence'
+include 'Domain'
+include 'Server'
+include 'Services'
+include 'Networking'
+include 'AngajatFX'
+include 'RestServices'

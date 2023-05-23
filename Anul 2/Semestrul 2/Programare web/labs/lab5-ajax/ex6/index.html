@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Problema 6</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script>
+		
+			var cond="";
+			
+			function colectData(){
+				return [$("#producator").find('option:selected').text(),
+						$("#procesor").find('option:selected').text(),
+						$("#memorie").find('option:selected').text(),
+						$("#capacitateHdd").find('option:selected').text(),
+						$("#placaVideo").find('option:selected').text(),
+						$("#diagonala").find('option:selected').text(),
+					]
+			}
+				
+			function showContent(){
+				$.ajax({
+					type : "GET",
+					url : "showProduse.php", 	
+					data: {items :colectData()},
+					success: function(data,status) {
+							$("#myTable").html(data);
+					}
+				});
+			}
+			
+			$(document).ready(function(){
+				showContent();
+				
+				$('select').change(function(){ 
+					var value = $(this).val();
+					showContent();
+				
+				});
+
+				
+			});
+		</script>
+	</head>
+	<body>
+		
+		<h1>Magazin online</h1>
+		<label >
+		Producator:
+		<label>
+            Producator:
+            <select id="producator">
+                <option value="none"></option>
+                <option value="Lenovo">Lenovo</option>
+                <option value="Dell">Dell</option>
+                <option value="HP">HP</option>
+                <option value="Apple">Apple</option>
+                <option value="ASUS">ASUS</option>
+                <option value="Acer">Acer</option>
+                <option value="Microsoft">Microsoft</option>
+            </select>
+        </label>
+        <label>
+            Procesor:
+            <select id="procesor">
+                <option value="none"></option>
+                <option value="Intel Core i7">Intel Core i7</option>
+                <option value="Intel Core i9">Intel Core i9</option>
+                <option value="Apple M1">Apple M1</option>
+                <option value="AMD Ryzen 9">AMD Ryzen 9</option>
+                <option value="Intel Core i5">Intel Core i5</option>
+                <option value="Intel Core i3">Intel Core i3</option>
+                <option value="AMD Ryzen 7">AMD Ryzen 7</option>
+            </select>
+        </label>
+        <label>
+            Memorie:
+            <select id="memorie">
+                <option value="none"></option>
+                <option value="16GB">16 GB</option>
+                <option value="32GB">32 GB</option>
+                <option value="8GB">8 GB</option>
+            </select>
+        </label>
+        <label>
+            HDD:
+            <select id="capacitateHdd">
+                <option value="none"></option>
+                <option value="512GB SSD">512 GB SSD</option>
+                <option value="1TB SSD">1 TB SSD</option>
+                <option value="1TB SSD">1 TB SSD</option>
+                <option value="256GB SSD">256 GB SSD</option>
+            </select>
+        </label>
+        <label>
+            Placa Video:
+            <select id="placaVideo">
+                <option value="none"></option>
+                <option value="Intel UHD Graphics">Intel UHD Graphics</option>
+                <option value="NVIDIA GeForce GTX 1650 Ti">NVIDIA GeForce GTX 1650 Ti</option>
+                <option value="Intel Iris Xe Graphics">Intel Iris Xe Graphics</option>
+                <option value="Apple M1 GPU">Apple M1 GPU</option>
+                <option value="NVIDIA GeForce RTX 3060">NVIDIA GeForce RTX 3060</option>
+                <option value="NVIDIA GeForce RTX 3070">NVIDIA GeForce RTX 3070</option>
+                <option value="AMD Radeon Graphics">AMD Radeon Graphics</option>
+            </select>
+        </label>
+        <label>
+            Diagonala:
+            <select id="diagonala">
+                <option value="none"></option>
+                <option value="14">14 inch</option>
+                <option value="15.6">15.6 inch</option>
+                <option value="13.3">13.3 inch</option>
+                <option value="13.5">13.5 inch</option>
+            </select>
+        </label>
+		<br>
+		<br>
+		<table id="myTable">
+		</table>
+	</body>
+</html>
