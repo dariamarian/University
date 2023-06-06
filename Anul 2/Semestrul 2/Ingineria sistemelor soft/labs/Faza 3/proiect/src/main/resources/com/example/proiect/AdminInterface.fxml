@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="455.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiect.controllers.AdminController">
+   <children>
+      <TabPane layoutX="14.0" layoutY="14.0" prefHeight="431.0" prefWidth="674.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab style="-fx-background-color: #84a59d;" text="Manage pharmaceutists">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #84a59d;">
+                     <children>
+                        <Label layoutX="18.0" layoutY="5.0" text="Pharmaceutists:" textFill="WHITE">
+                           <font>
+                              <Font name="Georgia" size="18.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="pharmaceutistsTable" layoutX="15.0" layoutY="34.0" prefHeight="257.0" prefWidth="647.0">
+                           <columns>
+                              <TableColumn fx:id="nameColumn1" prefWidth="198.66665649414062" text="name" />
+                              <TableColumn fx:id="usernameColumn1" prefWidth="208.66668128967285" text="username" />
+                              <TableColumn fx:id="passwordColumn1" minWidth="0.0" prefWidth="237.3333282470703" text="password" />
+                           </columns>
+                        </TableView>
+                        <Button fx:id="LogOutButton" layoutX="570.0" layoutY="352.0" mnemonicParsing="false" onAction="#onLogoutButtonAction" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: f28482; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: ffffff;" text="Log out" textFill="WHITE" />
+                        <TextField fx:id="usernameField1" layoutX="18.0" layoutY="329.0" promptText="username" style="-fx-border-color: f28482;" />
+                        <TextField fx:id="passwordField1" layoutX="18.0" layoutY="362.0" promptText="password" style="-fx-border-color: f28482;" />
+                        <Button fx:id="addPharmaceutistButton" layoutX="192.0" layoutY="313.0" mnemonicParsing="false" onAction="#onAddPharmaceutistButton" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: f28482; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: ffffff;" text="Add" textFill="WHITE" />
+                        <Button fx:id="updatePharmaceutistButton" layoutX="273.0" layoutY="313.0" mnemonicParsing="false" onAction="#onUpdatePharmaceutistButton" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: f28482; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: ffffff;" text="Update" textFill="WHITE" />
+                        <Button fx:id="deletePharmaceutistButton" layoutX="192.0" layoutY="351.0" mnemonicParsing="false" onAction="#onDeletePharmaceutistButton" prefHeight="25.0" prefWidth="144.0" style="-fx-background-color: f28482; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: ffffff;" text="Delete" textFill="WHITE" />
+                        <Button layoutX="570.0" layoutY="314.0" mnemonicParsing="false" onAction="#onRefresh" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: f28482; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: ffffff;" text="Refresh" textFill="WHITE" />
+                        <TextField fx:id="nameField1" layoutX="18.0" layoutY="295.0" promptText="name" style="-fx-border-color: f28482;" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab style="-fx-background-color: #84a59d;" text="Manage medical personnels">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #84a59d;">
+                     <children>
+                        <Label layoutX="18.0" layoutY="5.0" text="Medical Personnels:" textFill="WHITE">
+                           <font>
+                              <Font name="Georgia" size="18.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="personnelsTable" layoutX="15.0" layoutY="34.0" prefHeight="225.0" prefWidth="647.0">
+                           <columns>
+                              <TableColumn fx:id="nameColumn2" prefWidth="151.33333778381348" text="name" />
+                              <TableColumn fx:id="usernameColumn2" prefWidth="172.66664123535156" text="username" />
+                              <TableColumn fx:id="passwordColumn2" minWidth="0.0" prefWidth="176.66665649414062" text="password" />
+                              <TableColumn fx:id="sectionColumn2" prefWidth="147.33331298828125" text="section" />
+                           </columns>
+                        </TableView>
+                        <Button fx:id="LogOutButton1" layoutX="570.0" layoutY="338.0" mnemonicParsing="false" onAction="#onLogoutButtonAction" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: f28482; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: ffffff;" text="Log out" textFill="WHITE" />
+                        <Button fx:id="addPersonnelButton" layoutX="192.0" layoutY="298.0" mnemonicParsing="false" onAction="#onAddPersonnelButton" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: f28482; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: ffffff;" text="Add" textFill="WHITE" />
+                        <Button fx:id="updatePersonnelButton" layoutX="273.0" layoutY="298.0" mnemonicParsing="false" onAction="#onUpdatePersonnelButton" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: f28482; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: ffffff;" text="Update" textFill="WHITE" />
+                        <Button fx:id="deletePersonnelButton" layoutX="192.0" layoutY="336.0" mnemonicParsing="false" onAction="#onDeletePersonnelButton" prefHeight="25.0" prefWidth="144.0" style="-fx-background-color: f28482; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: ffffff;" text="Delete" textFill="WHITE" />
+                        <Button layoutX="570.0" layoutY="300.0" mnemonicParsing="false" onAction="#onRefresh" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: f28482; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-color: ffffff;" text="Refresh" textFill="WHITE" />
+                        <TextField fx:id="usernameField2" layoutX="18.0" layoutY="303.0" promptText="username" style="-fx-border-color: f28482;" />
+                        <TextField fx:id="passwordField2" layoutX="18.0" layoutY="336.0" promptText="password" style="-fx-border-color: f28482;" />
+                        <TextField fx:id="nameField2" layoutX="18.0" layoutY="269.0" promptText="name" style="-fx-border-color: f28482;" />
+                        <TextField fx:id="sectionField2" layoutX="18.0" layoutY="369.0" promptText="section" style="-fx-border-color: f28482;" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab style="-fx-background-color: f28482;" text="Manage medications">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: f28482;">
+                     <children>
+                        <TableView fx:id="medicationsTable" layoutX="13.0" layoutY="38.0" prefHeight="226.0" prefWidth="643.0">
+                           <columns>
+                              <TableColumn fx:id="nameColumn3" prefWidth="202.66665267944336" text="name" />
+                              <TableColumn fx:id="detailsColumn3" prefWidth="279.3333282470703" text="details" />
+                              <TableColumn fx:id="stockColumn3" prefWidth="159.99996948242188" text="stock" />
+                           </columns>
+                        </TableView>
+                        <Button layoutX="547.0" layoutY="276.0" mnemonicParsing="false" onAction="#onRefresh" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: #84a59d; -fx-border-color: ffffff; -fx-background-radius: 20; -fx-border-radius: 20;" text="Refresh" textFill="WHITE" />
+                        <TextField fx:id="nameField3" layoutX="13.0" layoutY="278.0" promptText="name" style="-fx-border-color: #84a59d;" />
+                        <TextField fx:id="detailsField3" layoutX="13.0" layoutY="313.0" promptText="details" style="-fx-border-color: #84a59d;" />
+                        <Button fx:id="addMedicationButton" layoutX="223.0" layoutY="279.0" mnemonicParsing="false" onAction="#onAddMedicationButton" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: #84a59d; -fx-border-color: ffffff; -fx-background-radius: 20; -fx-border-radius: 20;" text="Add" textFill="WHITE" />
+                        <Button fx:id="updateMedicationButton" layoutX="223.0" layoutY="314.0" mnemonicParsing="false" onAction="#onUpdateMedicationButton" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: #84a59d; -fx-border-color: ffffff; -fx-background-radius: 20; -fx-border-radius: 20;" text="Update" textFill="WHITE" />
+                        <Button fx:id="deleteMedicationButton" layoutX="223.0" layoutY="350.0" mnemonicParsing="false" onAction="#onDeleteMedicationButton" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #84a59d; -fx-border-color: ffffff; -fx-background-radius: 20; -fx-border-radius: 20;" text="Delete" textFill="WHITE" />
+                        <TextField fx:id="stockField3" layoutX="13.0" layoutY="350.0" promptText="stock" style="-fx-border-color: #84a59d;" />
+                        <Button fx:id="LogOutButton" layoutX="548.0" layoutY="313.0" mnemonicParsing="false" onAction="#onLogoutButtonAction" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: #84a59d; -fx-border-color: ffffff; -fx-background-radius: 20; -fx-border-radius: 20;" text="Log out" textFill="WHITE" />
+                        <Label layoutX="13.0" layoutY="14.0" text="Medications:" textFill="WHITE">
+                           <font>
+                              <Font name="Georgia" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

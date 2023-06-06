@@ -1,0 +1,54 @@
+package com.example.proiect.repository;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Properties;
+
+public class JDBCUtils {
+    private Properties jdbcProps;
+    private static final Logger logger= LogManager.getLogger();
+    public JDBCUtils(Properties props){
+        this.jdbcProps=props;
+    }
+    private  Connection instance=null;
+    private Connection getNewConnection(){
+        logger.traceEntry();
+        String url=jdbcProps.getProperty("jdbc.url");
+        String user=jdbcProps.getProperty("jdbc.user");
+        String pass=jdbcProps.getProperty("jdbc.pass");
+        logger.info("trying to connect to database ... {}",url);
+        Connection con=null;
+        try
+        {
+            if (user!=null && pass!=null)
+                con= DriverManager.getConnection(url,user,pass);
+            else
+                con=DriverManager.getConnection(url);
+            System.out.println("Connection successful ");
+        }
+        catch (SQLException e)
+        {
+            logger.error(e);
+            System.out.println("Error getting connection "+e);
+        }
+        return con;
+    }
+
+    public Connection getConnection(){
+        logger.traceEntry();
+        try {
+            if (instance==null || instance.isClosed())
+                instance=getNewConnection();
+
+        } catch (SQLException e) {
+            logger.error(e);
+            System.out.println("Error DB "+e);
+        }
+        logger.traceExit(instance);
+        return instance;
+    }
+}
