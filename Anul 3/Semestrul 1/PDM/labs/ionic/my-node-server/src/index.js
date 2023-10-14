@@ -30,126 +30,141 @@ app.use(async (ctx, next) => {
   }
 });
 
-// to edit
-class Item {
-  constructor({ id, text, date, version }) {
+class Movie {
+  constructor({ id, title, releaseDate, rating, watched, version, date }) {
     this.id = id;
-    this.text = text;
-    this.date = date;
+    this.title = title;
+    this.releaseDate = releaseDate;
+    this.rating = rating;
+    this.watched = watched;
     this.version = version;
+    this.date = date; // Keep the date field
   }
 }
 
-const items = [];
-// to comment:
-for (let i = 0; i < 3; i++) {
-  items.push(new Item({ id: `${i}`, text: `item ${i}`, date: new Date(Date.now() + i), version: 1 }));
-}
-// until here
-let lastUpdated = items[items.length - 1].date;
-let lastId = items[items.length - 1].id;
+const movies = [];
+let lastId = 0; // Start with ID 0
 const pageSize = 10;
 
 const broadcast = data =>
-  wss.clients.forEach(client => {
-    if (client.readyState === WebSocket.OPEN) {
-      client.send(JSON.stringify(data));
-    }
-  });
+    wss.clients.forEach(client => {
+      if (client.readyState === WebSocket.OPEN) {
+        client.send(JSON.stringify(data));
+      }
+    });
 
 const router = new Router();
 
-router.get('/item', ctx => {
-  ctx.response.body = items;
+router.get('/movie', ctx => {
+  ctx.response.body = movies;
   ctx.response.status = 200;
 });
 
-router.get('/item/:id', async (ctx) => {
-  const itemId = ctx.request.params.id;
-  const item = items.find(item => itemId === item.id);
-  if (item) {
-    ctx.response.body = item;
+router.get('/movie/:id', async (ctx) => {
+  const movieId = ctx.request.params.id;
+  const movie = movies.find(movie => movieId === movie.id);
+  if (movie) {
+    ctx.response.body = movie;
     ctx.response.status = 200; // ok
   } else {
-    ctx.response.body = { message: `item with id ${itemId} not found` };
-    ctx.response.status = 404; // NOT FOUND (if you know the resource was deleted, then return 410 GONE)
+    ctx.response.body = { message: `movie with id ${movieId} not found` };
+    ctx.response.status = 404; // NOT FOUND
   }
 });
 
-const createItem = async (ctx) => {
-  const item = ctx.request.body;
-  if (!item.text) { // validation
-    ctx.response.body = { message: 'Text is missing' };
+const createMovie = async (ctx) => {
+  const movie = ctx.request.body;
+  if (!movie.title) { // validation
+    ctx.response.body = { message: 'Title is missing' };
     ctx.response.status = 400; //  BAD REQUEST
     return;
   }
-  item.id = `${parseInt(lastId) + 1}`;
-  lastId = item.id;
-  item.date = new Date();
-  item.version = 1;
-  items.push(item);
-  ctx.response.body = item;
+  if (!movie.releaseDate) { // validation
+    ctx.response.body = { message: 'Release Date is missing' };
+    ctx.response.status = 400; //  BAD REQUEST
+    return;
+  }
+  if (!movie.rating) { // validation
+    ctx.response.body = { message: 'Rating is missing' };
+    ctx.response.status = 400; //  BAD REQUEST
+    return;
+  }
+  if (isNaN(movie.rating) || movie.rating < 1 || movie.rating > 10) {
+    ctx.response.body = { message: 'Rating should be a number between 1 and 10' };
+    ctx.response.status = 400; //  BAD REQUEST
+    return;
+  }
+  if (!movie.watched) { // validation
+    ctx.response.body = { message: 'Watched is missing' };
+    ctx.response.status = 400; //  BAD REQUEST
+    return;
+  }
+  movie.id = `${lastId++}`; // Increment the ID and set it
+  movie.date = new Date();
+  movie.version = 1;
+  movies.push(movie);
+  ctx.response.body = movie;
   ctx.response.status = 201; // CREATED
-  broadcast({ event: 'created', payload: { item } });
+  broadcast({ event: 'created', payload: { movie } });
 };
 
-router.post('/item', async (ctx) => {
-  await createItem(ctx);
+router.post('/movie', async (ctx) => {
+  await createMovie(ctx);
 });
 
-router.put('/item/:id', async (ctx) => {
+router.put('/movie/:id', async (ctx) => {
   const id = ctx.params.id;
-  const item = ctx.request.body;
-  item.date = new Date();
-  const itemId = item.id;
-  if (itemId && id !== item.id) {
+  const movie = ctx.request.body;
+  movie.date = new Date();
+  const movieId = movie.id;
+  if (movieId && id !== movie.id) {
     ctx.response.body = { message: `Param id and body id should be the same` };
     ctx.response.status = 400; // BAD REQUEST
     return;
   }
-  if (!itemId) {
-    await createItem(ctx);
+  if (!movieId) {
+    await createMovie(ctx);
     return;
   }
-  const index = items.findIndex(item => item.id === id);
+  const index = movies.findIndex(movie => movie.id === id);
   if (index === -1) {
-    ctx.response.body = { issue: [{ error: `item with id ${id} not found` }] };
+    ctx.response.body = { issue: [{ error: `movie with id ${id} not found` }] };
     ctx.response.status = 400; // BAD REQUEST
     return;
   }
-  const itemVersion = parseInt(ctx.request.get('ETag')) || item.version;
-  if (itemVersion < items[index].version) {
+  const movieVersion = parseInt(ctx.request.get('ETag')) || movie.version;
+  if (movieVersion < movies[index].version) {
     ctx.response.body = { issue: [{ error: `Version conflict` }] };
     ctx.response.status = 409; // CONFLICT
     return;
   }
-  item.version++;
-  items[index] = item;
+  movie.version++;
+  movies[index] = movie;
   lastUpdated = new Date();
-  ctx.response.body = item;
+  ctx.response.body = movie;
   ctx.response.status = 200; // OK
-  broadcast({ event: 'updated', payload: { item } });
+  broadcast({ event: 'updated', payload: { movie } });
 });
 
-router.del('/item/:id', ctx => {
+router.del('/movie/:id', ctx => {
   const id = ctx.params.id;
-  const index = items.findIndex(item => id === item.id);
+  const index = movies.findIndex(movie => id === movie.id);
   if (index !== -1) {
-    const item = items[index];
-    items.splice(index, 1);
+    const movie = movies[index];
+    movies.splice(index, 1);
     lastUpdated = new Date();
-    broadcast({ event: 'deleted', payload: { item } });
+    broadcast({ event: 'deleted', payload: { movie } });
   }
   ctx.response.status = 204; // no content
 });
 
 setInterval(() => {
   lastUpdated = new Date();
-  lastId = `${parseInt(lastId) + 1}`;
-  const item = new Item({ id: lastId, text: `item ${lastId}`, date: lastUpdated, version: 1 });
-  items.push(item);
-  console.log(`New item: ${item.text}`);
-  broadcast({ event: 'created', payload: { item } });
+  const movie = new Movie({ id: `${lastId}`, title: `movie ${lastId}`, releaseDate: new Date(), rating: 1, watched: false, version: 1, date: lastUpdated });
+  movies.push(movie);
+  console.log(`New movie: ${movie.title}, ${movie.releaseDate}`);
+  broadcast({ event: 'created', payload: { movie } });
+  lastId++; // Increment the lastId
 }, 5000);
 
 app.use(router.routes());

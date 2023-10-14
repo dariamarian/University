@@ -1,2 +1,2 @@
-export { default as ItemList } from './ItemList';
-export { default as ItemEdit } from './ItemEdit';
+export { default as MovieList } from './MovieList';
+export { default as MovieEdit } from './MovieEdit';
