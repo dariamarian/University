@@ -1,7 +1,7 @@
 My app features:
 - a movie has a Title (string), a Release Date (date), a rating (numeric) and a watched status (boolean)
 - view a list of movies
-- add/edit a movie
+- add/edit movie
 
 TO BE DONE:
 - authenticate user
