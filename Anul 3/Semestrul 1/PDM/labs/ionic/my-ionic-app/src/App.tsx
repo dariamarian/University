@@ -28,16 +28,16 @@ setupIonicReact();
 
 const App: React.FC = () => (
     <IonApp>
-      <MovieProvider>
-        <IonReactRouter>
-          <IonRouterOutlet>
-            <Route path="/movies" component={MovieList} exact={true}/>
-            <Route path="/movie" component={MovieEdit} exact={true}/>
-            <Route path="/movie/:id" component={MovieEdit} exact={true}/>
-            <Route exact path="/" render={() => <Redirect to="/movies"/>}/>
-          </IonRouterOutlet>
-        </IonReactRouter>
-      </MovieProvider>
+        <MovieProvider>
+            <IonReactRouter>
+                <IonRouterOutlet>
+                    <Route path="/movies" component={MovieList} exact={true}/>
+                    <Route path="/movie" component={MovieEdit} exact={true}/>
+                    <Route path="/movie/:id" component={MovieEdit} exact={true}/>
+                    <Route exact path="/" render={() => <Redirect to="/movies"/>}/>
+                </IonRouterOutlet>
+            </IonReactRouter>
+        </MovieProvider>
     </IonApp>
 );
 

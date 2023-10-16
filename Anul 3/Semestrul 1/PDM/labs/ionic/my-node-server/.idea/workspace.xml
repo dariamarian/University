@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ee0d450-808c-43e6-ac0c-d1393d8a92f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/Movie.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/MovieEdit.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/MovieList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/MovieProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/MovieProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/movieApi.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/useMovies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-ionic-app/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-ionic-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-ionic-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/node_modules/.vite/deps/@ionic_react-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-ionic-app/node_modules/.vite/deps/@ionic_react-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/node_modules/.vite/deps/@ionic_react.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-ionic-app/node_modules/.vite/deps/@ionic_react.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-ionic-app/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/node_modules/.vite/deps/chunk-27ARV5OF.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/node_modules/.vite/deps/chunk-27ARV5OF.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../my-ionic-app/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/Item.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/ItemEdit.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/ItemList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/ItemProps.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/ItemProvider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/itemApi.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/useItems.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/Movie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/MovieList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/MovieList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-ionic-app/src/todo/movieApi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../my-ionic-app/src/todo/movieApi.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/daria/Github/University/Anul 3/Semestrul 1/PDM/labs/ionic/my-app",
+    "last_opened_file_path": "C:/Users/daria/Downloads/my-node-server-auth",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,7 +70,8 @@
       <workItem from="1697219692412" duration="974000" />
       <workItem from="1697222703677" duration="292000" />
       <workItem from="1697223025342" duration="2228000" />
-      <workItem from="1697289432239" duration="4369000" />
+      <workItem from="1697289432239" duration="5504000" />
+      <workItem from="1697474167751" duration="3315000" />
     </task>
     <servers />
   </component>

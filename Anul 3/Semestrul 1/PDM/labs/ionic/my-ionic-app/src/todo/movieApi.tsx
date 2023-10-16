@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getLogger } from '../core';
 import { MovieProps } from './MovieProps';
 
-const log = getLogger('movieApi');
+//const log = getLogger('movieApi');
 
 const baseUrl = 'localhost:3000';
 const movieUrl = `http://${baseUrl}/movie`;
@@ -48,6 +48,8 @@ interface MessageData {
     movie: MovieProps;
   };
 }
+
+const log = getLogger('ws');
 
 export const newWebSocket = (onMessage: (data: MessageData) => void) => {
   const ws = new WebSocket(`ws://${baseUrl}`);

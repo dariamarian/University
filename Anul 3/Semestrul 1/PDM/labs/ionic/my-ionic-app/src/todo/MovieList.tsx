@@ -26,7 +26,7 @@ const MovieList: React.FC<RouteComponentProps> = ({ history }) => {
       <IonPage>
         <IonHeader>
           <IonToolbar>
-            <IonTitle>My App</IonTitle>
+            <IonTitle>Movie List</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent>

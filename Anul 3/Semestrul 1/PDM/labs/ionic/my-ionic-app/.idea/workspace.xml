@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fa59fee-2bb4-4e2e-9252-a1edea4ac589" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../my-node-server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-server/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-node-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-node-server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-server/src/index.js" afterDir="false" />
     </list>
@@ -60,6 +59,9 @@
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\daria\Github\University\Anul 3\Semestrul 1\PDM\labs\ionic\my-ionic-app\src\containers" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="All Tests" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
@@ -102,7 +104,8 @@
       <workItem from="1697219666555" duration="1495000" />
       <workItem from="1697222651453" duration="343000" />
       <workItem from="1697223015961" duration="3684000" />
-      <workItem from="1697289403107" duration="5778000" />
+      <workItem from="1697289403107" duration="8495000" />
+      <workItem from="1697474250667" duration="3814000" />
     </task>
     <servers />
   </component>

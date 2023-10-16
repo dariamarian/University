@@ -12,7 +12,7 @@ interface MoviePropsExt extends MovieProps {
 const Movie: React.FC<MoviePropsExt> = ({ id, title, releaseDate, rating, watched, onEdit }) => {
     return (
         <IonItem onClick={() => onEdit(id)}>
-            <IonLabel>{title}</IonLabel>
+            <IonLabel>Title: {title}</IonLabel>
             <IonLabel>Release Date: {releaseDate}</IonLabel>
             <IonLabel>Rating: {rating}</IonLabel>
             <IonLabel>Watched: {watched ? 'Yes' : 'No'}</IonLabel>
