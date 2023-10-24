@@ -1,0 +1,8 @@
+Simbol | Cod TS
+0 1
+2 2
+3.14159265359 3
+arie 4
+perim 5
+pi 6
+raza 7

@@ -1,0 +1,13 @@
+int main() {
+    float pi ;
+    pi = 3.14159265359 ;
+    float raza ;
+    cin >> raza ;
+    float perim ; 
+    perim = 2 * pi * raza ;
+    float arie ;
+    arie = pi * raza * raza ;
+    cout << perim ;
+    cout << arie ;
+    return 0 ;
+}

@@ -1,0 +1,4 @@
+﻿  lab3.cpp
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 3\sem 1\LFTC\labs\lab3\lab3\lab3.cpp(143,48): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\daria\OneDrive\Desktop\Faculta\Anul 3\sem 1\LFTC\labs\lab3\lab3\lab3.cpp(188,48): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  lab3.vcxproj -> C:\Users\daria\OneDrive\Desktop\Faculta\Anul 3\sem 1\LFTC\labs\lab3\x64\Debug\lab3.exe
