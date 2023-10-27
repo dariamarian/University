@@ -10,10 +10,10 @@ public class GenerateInput {
         N = 10000;
         M = 10;
         n = m = 5;
-        generateInputFile("input.txt");
+        generateInput("input.txt");
     }
 
-    private static void generateInputFile(String file) {
+    private static void generateInput(String file) {
         try{
             File f = new File(file);
             FileWriter fw = new FileWriter(f);

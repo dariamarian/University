@@ -60,27 +60,28 @@ public class Main {
             e.printStackTrace();
         }
     }
+
     public static void main(String[] args) throws Exception {
-        read("C:\\Users\\daria\\Github\\University\\Anul3\\Semestrul1\\PPD\\labs\\lab1\\ConvolutionJava\\input.txt");
+        read("C:\\Users\\daria\\Github\\University\\Anul 3\\Semestrul 1\\PPD\\labs\\lab1\\ConvolutionJava\\input.txt");
         finalMatrix = new int[N][M];
         p = Integer.parseInt(args[0]);
         lineOffset = (n - 1) / 2;
         columnOffset = (m - 1) / 2;
         if (p == 0)
-            sequentialConvolution();
+            sequential();
         else
-            parallelConvolution();
+            parallel();
 
-        write("C:\\Users\\daria\\Github\\University\\Anul3\\Semestrul1\\PPD\\labs\\lab1\\ConvolutionJava\\output.txt", finalMatrix);
+        write("C:\\Users\\daria\\Github\\University\\Anul 3\\Semestrul 1\\PPD\\labs\\lab1\\ConvolutionJava\\output.txt", finalMatrix);
 
         if (p == 0) {
-            write("C:\\Users\\daria\\Github\\University\\Anul3\\Semestrul1\\PPD\\labs\\lab1\\ConvolutionJava\\valid.txt", finalMatrix);
+            write("C:\\Users\\daria\\Github\\University\\Anul 3\\Semestrul 1\\PPD\\labs\\lab1\\ConvolutionJava\\valid.txt", finalMatrix);
         } else {
-            checkCompliance("C:\\Users\\daria\\Github\\University\\Anul3\\Semestrul1\\PPD\\labs\\lab1\\ConvolutionJava\\output.txt", "C:\\Users\\daria\\Github\\University\\Anul3\\Semestrul1\\PPD\\labs\\lab1\\ConvolutionJava\\valid.txt");
+            checkValid("C:\\Users\\daria\\Github\\University\\Anul 3\\Semestrul 1\\PPD\\labs\\lab1\\ConvolutionJava\\output.txt", "C:\\Users\\daria\\Github\\University\\Anul 3\\Semestrul 1\\PPD\\labs\\lab1\\ConvolutionJava\\valid.txt");
         }
     }
 
-    private static void checkCompliance(String pathTest, String pathValid) throws Exception {
+    private static void checkValid(String pathTest, String pathValid) throws Exception {
         File objTest = new File(pathTest);
         Scanner readerTest = new Scanner(objTest);
 
@@ -105,16 +106,15 @@ public class Main {
         int output = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                // Compute neighbours
+
                 int ii = x - lineOffset + i;
                 int jj = y - columnOffset + j;
 
-                // Out of bounds - line:
-                if (ii < 0) ii = 0;
-                else if (ii >= N) ii = N - 1;
-                // Out of bounds - column:
-                if (jj < 0) jj = 0;
-                else if (jj >= M) jj = M - 1;
+                if (ii < 0) ii = 0; //if it's negative, it's set to 0, so it's not out of bounds
+                else if (ii >= N) ii = N - 1; //if it exceeds the N, it's set to the maximum valid index
+
+                if (jj < 0) jj = 0; //if it's negative, it's set to 0, so it's not out of bounds
+                else if (jj >= M) jj = M - 1; //if it exceeds the M, it's set to the maximum valid index
 
                 output += matrix[ii][jj] * kernel[i][j];
             }
@@ -122,7 +122,7 @@ public class Main {
         return output;
     }
 
-    public static void sequentialConvolution() {
+    public static void sequential() {
         long startTime = System.nanoTime();
 
         for (int i = 0; i < N; i++) {
@@ -132,23 +132,23 @@ public class Main {
         }
 
         long endTime = System.nanoTime();
-        System.out.println((double)(endTime - startTime) / 1E6);
+        System.out.println((double) (endTime - startTime) / 1E6);
     }
 
-    public static void parallelConvolution() throws InterruptedException {
+    public static void parallel() throws InterruptedException {
         Thread[] t = new MyThread[p];
 
         int start, end = 0;
-        int mx = Math.max(N, M);
-        int chunk = mx / p;
-        int rest = mx % p;
+        int max = Math.max(N, M);
+        int segment = max / p;
+        int rest = max % p;
 
         long startTime = System.nanoTime();
 
         for (int i = 0; i < t.length; i++) {
-            start = end;
-            end = start + chunk;
-            if (rest > 0) {
+            start = end; //sets the starting point of the new segment to the end of the previous one
+            end = start + segment; //sets the ending point of the new segment
+            if (rest > 0) { //if there are still elements left, the remaining works are distributed
                 end++;
                 rest--;
             }
@@ -162,7 +162,7 @@ public class Main {
 
         long stopTime = System.nanoTime();
 
-        System.out.println((double)(stopTime - startTime) / 1E6);
+        System.out.println((double) (stopTime - startTime) / 1E6);
     }
 
     public static class MyThread extends Thread {
@@ -183,8 +183,7 @@ public class Main {
                         this.finalMatrix[i][j] = Main.singlePixelConvolution(i, j);
                     }
                 }
-            }
-            else {
+            } else {
                 for (int i = 0; i < N; i++) {
                     for (int j = start; j < end; j++) {
                         this.finalMatrix[i][j] = Main.singlePixelConvolution(i, j);

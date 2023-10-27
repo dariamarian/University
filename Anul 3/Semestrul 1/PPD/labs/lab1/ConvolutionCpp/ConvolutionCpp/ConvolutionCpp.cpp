@@ -4,29 +4,29 @@
 #include <vector>
 
 using namespace std;
-using namespace std::chrono;
+using namespace chrono;
+
+int N, M, n, m, p;
 
 const int N_MAX = 10000;
 const int M_MAX = 10000;
 const int K_MAX = 6;
 
-int N, M, n, m, p;
+//int matrix[N_MAX][M_MAX];
+//int kernel[K_MAX][K_MAX];
+//int finalMatrix[N_MAX][M_MAX];
 
 vector<vector<int>> matrix;
 vector<vector<int>> kernel;
 vector<vector<int>> finalMatrix;
-
-//int matrix[N_MAX][M_MAX];
-//int kernel[K_MAX][K_MAX];
-//int finalMatrix[N_MAX][M_MAX];
 
 void read(string path) {
     ifstream fin(path);
 
     fin >> N >> M;
 
-    matrix = vector<std::vector<int>>(N, std::vector<int>(M));
-    finalMatrix = vector<std::vector<int>>(N, std::vector<int>(M));
+    matrix = vector<vector<int>>(N, vector<int>(M));
+    finalMatrix = vector<vector<int>>(N, vector<int>(M));
 
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < M; ++j) {
@@ -36,7 +36,7 @@ void read(string path) {
 
     fin >> n >> m;
 
-    kernel = vector<std::vector<int>>(n, std::vector<int>(m));
+    kernel = vector<vector<int>>(n, vector<int>(m));
 
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
@@ -82,7 +82,7 @@ int singlePixelConvolution(int x, int y, int lineOffset, int columnOffset)
     return output;
 }
 
-void sequentialConvolution(int lineOffset, int columnOffset) {
+void sequential(int lineOffset, int columnOffset) {
     auto startTime = high_resolution_clock::now();
 
     for (int i = 0; i < N; i++)
@@ -96,7 +96,7 @@ void sequentialConvolution(int lineOffset, int columnOffset) {
     cout << difference << endl;
 }
 
-void parallelConvolution(int lineOffset, int columnOffset, int start, int end) {
+void parallel(int lineOffset, int columnOffset, int start, int end) {
     if (N > M) {
         for (int i = start; i < end; i++) {
             for (int j = 0; j < M; j++) {
@@ -118,21 +118,21 @@ void parallelization(int lineOffset, int columnOffset) {
 
     int start = 0, end = 0;
     int mx = max(N, M);
-    int chunk = mx / p;
+    int segment = mx / p;
     int rest = mx % p;
 
     auto startTime = high_resolution_clock::now();
 
     for (size_t i = 0; i < p; i++) {
         start = end;
-        end = start + chunk;
+        end = start + segment;
         if (rest > 0)
         {
             end++;
             rest--;
         }
-        thread thr = thread(parallelConvolution, lineOffset, columnOffset, start, end);
-        t.push_back(std::move(thr));
+        thread thr = thread(parallel, lineOffset, columnOffset, start, end);
+        t.push_back(move(thr));
     }
 
     for (auto& th : t)
@@ -148,7 +148,7 @@ void parallelization(int lineOffset, int columnOffset) {
     cout << difference << endl;
 }
 
-void check_compliance(string path_t, string path_v) {
+void check_valid(string path_t, string path_v) {
     ifstream fin_t(path_t);
     ifstream fin_v(path_v);
 
@@ -173,7 +173,7 @@ int main(int argc, char** argv) {
     int columnOffset = (M - 1) / 2;
 
     if (p == 0) {
-        sequentialConvolution(lineOffset, columnOffset);
+        sequential(lineOffset, columnOffset);
     }
     else {
         parallelization(lineOffset, columnOffset);
@@ -185,6 +185,6 @@ int main(int argc, char** argv) {
         write("valid.txt");
     }
     else {
-        check_compliance("output.txt", "valid.txt");
+        check_valid("output.txt", "valid.txt");
     }
 }
