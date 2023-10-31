@@ -1,0 +1,16 @@
+Stari:
+q0
+q1
+
+Alfabet:
+a
+
+Tranzitii:
+q0 a q1
+q1 a q0
+
+Stare initiala:
+q0
+
+Stari finale:
+q0
