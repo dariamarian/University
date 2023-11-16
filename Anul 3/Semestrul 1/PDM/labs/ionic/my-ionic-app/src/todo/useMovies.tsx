@@ -44,13 +44,13 @@ const reducer: (state: MoviesState, action: ActionProps) => MoviesState =
       }
     };
 
-export const useMovies: () => MoviesProps = () => {
+export const useMovies: (token:string) => MoviesProps = (token) => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { movies, fetching, fetchingError } = state;
   const addMovie = useCallback(() => {
     log('addMovie - TODO');
   }, []);
-  useEffect(getMoviesEffect, [dispatch]);
+  useEffect(() => getMoviesEffect(token), [dispatch, token]);
   log(`returns - fetching = ${fetching}, movies = ${JSON.stringify(movies)}`);
   return {
     movies,
@@ -59,7 +59,7 @@ export const useMovies: () => MoviesProps = () => {
     addMovie,
   };
 
-  function getMoviesEffect() {
+  function getMoviesEffect(token: string) {
     let canceled = false;
     fetchMovies();
     return () => {
@@ -70,7 +70,7 @@ export const useMovies: () => MoviesProps = () => {
       try {
         log('fetchMovies started');
         dispatch({ type: FETCH_MOVIES_STARTED });
-        const movies = await getMovies();
+        const movies = await getMovies(token);
         log('fetchMovies succeeded');
         if (!canceled) {
           dispatch({ type: FETCH_MOVIES_SUCCEEDED, payload: { movies } });

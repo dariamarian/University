@@ -13,9 +13,9 @@ import {
   IonToolbar
 } from '@ionic/react';
 import { add } from 'ionicons/icons';
-import Movie from './Movie'; // Import Movie instead of Book
+import Movie from './Movie';
 import { getLogger } from '../core';
-import { MovieContext } from './MovieProvider'; // Use MovieContext instead of BookContext
+import { MovieContext } from './MovieProvider';
 
 const log = getLogger('MovieList');
 

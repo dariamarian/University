@@ -1,0 +1,3 @@
+﻿  ConvolutionCpp.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\barrier(17): warning STL4038: The contents of <barrier> are available only with C++20 or later.
+  ConvolutionCpp.vcxproj -> C:\Users\daria\Github\University\Anul 3\Semestrul 1\PPD\labs\lab2\ConvolutionCpp\x64\Debug\ConvolutionCpp.exe

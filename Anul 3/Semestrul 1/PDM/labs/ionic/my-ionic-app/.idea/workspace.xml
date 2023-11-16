@@ -5,7 +5,300 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fa59fee-2bb4-4e2e-9252-a1edea4ac589" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../my-node-server/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-node-server/db/movies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-node-server/db/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-node-server/src/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-node-server/src/movie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-node-server/src/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-node-server/src/wss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/.vs/ConvolutionCpp/FileContentIndex/762333f1-bdcf-4a4f-8409-28225d65681a.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/.vs/ConvolutionCpp/FileContentIndex/8090aa97-4fb6-46b6-a601-b4ab90935354.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/.vs/ConvolutionCpp/FileContentIndex/972634da-d881-4011-9db1-31c052e2ace5.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/.vs/ConvolutionCpp/FileContentIndex/aecf6eac-957f-451e-8550-7172f2252b64.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/.vs/ConvolutionCpp/FileContentIndex/dc39aa94-ca54-4d63-9680-e0bd477744f0.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/.vs/ConvolutionCpp/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/.vs/ConvolutionCpp/v17/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/.vs/ConvolutionCpp/v17/ipch/AutoPCH/2915b88e8ee19a85/CONVOLUTIONCPP.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/.vs/ConvolutionCpp/v17/ipch/AutoPCH/6f4ce52ae39cc995/CONVOLUTIONCPP.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/.vs/ConvolutionCpp/v17/ipch/AutoPCH/ed90afb4b4513a13/CONVOLUTIONCPP.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/ConvolutionCpp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/ConvolutionCpp.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/ConvolutionCpp.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/ConvolutionCpp.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/outC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/scriptC.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/valid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.exe.recipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.tlog/Cl.items.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.tlog/ConvolutionCpp.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/ConvolutionCpp.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/vc143.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/ConvolutionCpp/x64/Debug/vc143.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/x64/Debug/ConvolutionCpp.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionCpp/x64/Debug/ConvolutionCpp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/ConvolutionJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/scriptJ.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/src/GenerateInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/src/diagram.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/ConvolutionJava/valid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/Documentation.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/inputs ppd/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/inputs ppd/input3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/outC.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/outJ.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariablesD0smDDC2tL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariablesE7Kw0sUFFp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariablesIGOqiyGhPx.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariablesIs7n45oGhP.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariablesT1PNoYwrqg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariablesTGwe6mhRZh.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariablesUyBrrEWibb.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariablesZ97BcX93hZ.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariableseSB8ubaAuj.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariableslkqGEBqgyJ.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariablesll9tqD2ILj.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/.tmp/GlobalVariablesyALXRnGyqU.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/.globalvariables/GlobalVariablesyALXRnGyqU.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/AllDependencies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/PackageCache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/ProjectSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/dataManagerElementsOrder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/db/references.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/install/lab01.Mapper.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/install/lab01.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/install/lab01_Expressions_Input.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/install/lab01_Expressions_Main.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/install/lab01_Expressions_Read.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/install/lab01_Expressions_WriteToCsv.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/install/lab01_Input.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/install/lab01_Main.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/install/lab01_Read.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/install/lab01_WriteToCsv.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/lab01.nuget.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.local/nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.objects/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.objects/.type" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.project/PackageBindingsMetadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.project/design.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.project/globalVariables.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Debug/settings-1a5b880a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Debug/settings-5190454b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Debug/settings-590bb27b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Debug/settings-82ca306a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Debug/settings-9e9290da.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Debug/settings-a1b2dac1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Debug/settings-afad0842.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Design/settings-5190454b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Design/settings-a1b2dac1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Design/settings-afad0842.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Release/settings-1a5b880a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Release/settings-5190454b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Release/settings-590bb27b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Release/settings-82ca306a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Release/settings-9e9290da.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Release/settings-a1b2dac1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.settings/Release/settings-afad0842.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/.tmh/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/Input.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/Main.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/Read.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/WriteToCsv.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/new.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab02/read.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-node-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-server/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/.bin/semver.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/lru-cache/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/lru-cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/lru-cache/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/lru-cache/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/bin/semver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/classes/comparator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/classes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/classes/range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/classes/semver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/cmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/coerce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/compare-build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/compare-loose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/compare.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/eq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/gt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/gte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/inc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/lte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/major.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/minor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/neq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/prerelease.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/rcompare.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/rsort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/satisfies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/functions/valid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/internal/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/internal/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/internal/identifiers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/internal/parse-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/internal/re.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/preload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/range.bnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/gtr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/intersects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/ltr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/max-satisfying.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/min-satisfying.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/min-version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/outside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/simplify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/subset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/to-comparators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/semver/ranges/valid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/yallist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/yallist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/yallist/iterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/yallist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/nodemon/node_modules/yallist/yallist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/.bin/semver.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/.bin/semver.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/lru-cache/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/lru-cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/lru-cache/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/lru-cache/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/bin/semver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/classes/comparator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/classes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/classes/range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/classes/semver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/cmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/coerce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/compare-build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/compare-loose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/compare.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/eq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/gt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/gte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/inc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/lte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/major.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/minor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/neq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/prerelease.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/rcompare.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/rsort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/satisfies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/functions/valid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/internal/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/internal/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/internal/identifiers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/internal/parse-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/internal/re.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/preload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/range.bnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/gtr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/intersects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/ltr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/max-satisfying.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/min-satisfying.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/min-version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/outside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/simplify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/subset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/to-comparators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/semver/ranges/valid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/yallist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/yallist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/yallist/iterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/yallist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/node_modules/simple-update-notifier/node_modules/yallist/yallist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-server/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PPD/labs/lab1/convolutionJava/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab1/convolutionJava/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PPD/labs/lab1/convolutionJava/valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab1/convolutionJava/valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PPD/labs/lab1/inputs ppd/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../PPD/labs/lab2/inputs ppd/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PPD/labs/lab1/inputs ppd/input2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PPD/labs/lab1/inputs ppd/input3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../PPD/labs/lab1/inputs ppd/input4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/.globalvariables/.tmp/GlobalVariablesT1PNoYwrqg.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/.globalvariables/.tmp/GlobalVariablesT1PNoYwrqg.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/.globalvariables/GlobalVariablesT1PNoYwrqg.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/.globalvariables/GlobalVariablesT1PNoYwrqg.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/AllDependencies.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/AllDependencies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/PackageCache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/PackageCache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/ProjectSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/ProjectSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/dataManagerElementsOrder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/dataManagerElementsOrder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/db/references.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/db/references.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/install/CodedWorkflow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/install/CodedWorkflow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/install/lab01.Mapper.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/install/lab01.Mapper.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/install/lab01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/install/lab01.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/install/lab01_Expressions_Main.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/install/lab01_Expressions_Main.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/install/lab01_Main.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/install/lab01_Main.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/lab01.nuget.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/lab01.nuget.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.local/nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.local/nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.objects/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.objects/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.objects/.type" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.objects/.type" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.project/PackageBindingsMetadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.project/PackageBindingsMetadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.project/design.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.project/design.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Debug/settings-1a5b880a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Debug/settings-1a5b880a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Debug/settings-5190454b.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Debug/settings-5190454b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Debug/settings-590bb27b.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Debug/settings-590bb27b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Debug/settings-82ca306a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Debug/settings-82ca306a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Debug/settings-9e9290da.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Debug/settings-9e9290da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Debug/settings-a1b2dac1.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Debug/settings-a1b2dac1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Debug/settings-afad0842.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Debug/settings-afad0842.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Design/settings-5190454b.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Design/settings-5190454b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Design/settings-a1b2dac1.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Design/settings-a1b2dac1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Design/settings-afad0842.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Design/settings-afad0842.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Release/settings-1a5b880a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Release/settings-1a5b880a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Release/settings-5190454b.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Release/settings-5190454b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Release/settings-590bb27b.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Release/settings-590bb27b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Release/settings-82ca306a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Release/settings-82ca306a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Release/settings-9e9290da.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Release/settings-9e9290da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Release/settings-a1b2dac1.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Release/settings-a1b2dac1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.settings/Release/settings-afad0842.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.settings/Release/settings-afad0842.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/.tmh/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/.tmh/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/Main.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/Main.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../RPA/labs/Tema 01/lab01/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../RPA/labs/lab01/project.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,26 +327,27 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/daria/Github/University/Anul 3/Semestrul 1/PDM/labs/ionic/my-node-server&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\daria\\Github\\University\\Anul 3\\Semestrul 1\\PDM\\labs\\ionic\\my-ionic-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/daria/Github/University/Anul 3/Semestrul 1/PDM/labs/ionic/my-ionic-app/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\daria\\Github\\University\\Anul 3\\Semestrul 1\\PDM\\labs\\ionic\\my-ionic-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\daria\Github\University\Anul 3\Semestrul 1\PDM\labs\ionic\my-ionic-app\src" />
       <recent name="$PROJECT_DIR$/src/todo" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
@@ -107,6 +401,7 @@
       <workItem from="1697474250667" duration="3814000" />
       <workItem from="1697800409441" duration="52000" />
       <workItem from="1697814166717" duration="957000" />
+      <workItem from="1698994087479" duration="3864000" />
     </task>
     <servers />
   </component>

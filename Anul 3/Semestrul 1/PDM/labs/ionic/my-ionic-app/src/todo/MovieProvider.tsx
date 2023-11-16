@@ -1,8 +1,9 @@
-import React, { useCallback, useEffect, useReducer } from 'react';
+import React, { useCallback, useContext, useEffect, useReducer } from 'react';
 import PropTypes from 'prop-types';
 import { getLogger } from '../core';
 import { MovieProps } from './MovieProps';
 import { createMovie, getMovies, newWebSocket, updateMovie } from './movieApi';
+import { AuthContext } from '../auth';
 
 const log = getLogger('MovieProvider');
 
@@ -69,6 +70,7 @@ interface MovieProviderProps {
 }
 
 export const MovieProvider: React.FC<MovieProviderProps> = ({ children }) => {
+  const { token } = useContext(AuthContext);
   const [state, dispatch] = useReducer(reducer, initialState);
   const { movies, fetching, fetchingError, saving, savingError } = state;
   useEffect(getMoviesEffect, []);
@@ -93,7 +95,7 @@ export const MovieProvider: React.FC<MovieProviderProps> = ({ children }) => {
       try {
         log('fetchMovies started');
         dispatch({ type: FETCH_MOVIES_STARTED });
-        const movies = await getMovies();
+        const movies = await getMovies(token);
         log('fetchMovies succeeded');
         if (!canceled) {
           dispatch({ type: FETCH_MOVIES_SUCCEEDED, payload: { movies } });
@@ -111,7 +113,7 @@ export const MovieProvider: React.FC<MovieProviderProps> = ({ children }) => {
     try {
       log('saveMovie started');
       dispatch({ type: SAVE_MOVIE_STARTED });
-      const savedMovie = await (movie.id ? updateMovie(movie) : createMovie(movie));
+      const savedMovie = await (movie.id ? updateMovie(token,movie) : createMovie(token,movie));
       log('saveMovie succeeded');
       dispatch({ type: SAVE_MOVIE_SUCCEEDED, payload: { movie: savedMovie } });
     } catch (error) {
@@ -123,20 +125,23 @@ export const MovieProvider: React.FC<MovieProviderProps> = ({ children }) => {
   function wsEffect() {
     let canceled = false;
     log('wsEffect - connecting');
-    const closeWebSocket = newWebSocket(message => {
-      if (canceled) {
-        return;
-      }
-      const { event, payload: { movie }} = message;
-      log(`ws message, movie ${event}`);
-      if (event === 'created' || event === 'updated') {
-        dispatch({ type: SAVE_MOVIE_SUCCEEDED, payload: { movie } });
-      }
-    });
+    let closeWebSocket: () => void;
+    if (token?.trim()) {
+      closeWebSocket = newWebSocket(token, message => {
+        if (canceled) {
+          return;
+        }
+        const { type, payload: item } = message;
+        log(`ws message, item ${type}`);
+        if (type === 'created' || type === 'updated') {
+          dispatch({ type: SAVE_MOVIE_SUCCEEDED, payload: { item } });
+        }
+      });
+    }
     return () => {
       log('wsEffect - disconnecting');
       canceled = true;
-      closeWebSocket();
+      closeWebSocket?.();
     }
   }
 };

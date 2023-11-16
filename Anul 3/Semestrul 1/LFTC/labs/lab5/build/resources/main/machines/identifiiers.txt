@@ -1,0 +1,9 @@
+q0 q1
+q0
+q1
+letter dd _
+q0 letter q1
+q0 _ q1
+q1 letter q1
+q1 _ q1
+q1 dd q1

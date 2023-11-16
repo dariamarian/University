@@ -1,0 +1,47 @@
+{"_id":"1","title":"Inception","genre":"Sci-Fi","releaseDate":"2010-07-16","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"10","title":"The Lord of the Rings: The Return of the King","genre":"Adventure","releaseDate":"2003-12-17","rating":9,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"11","title":"The Lord of the Rings: The Two Towers","genre":"Adventure","releaseDate":"2002-12-18","rating":7,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"12","title":"The Silence of the Lambs","genre":"Crime","releaseDate":"1991-02-14","rating":6,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"13","title":"The Departed","genre":"Crime","releaseDate":"2006-10-06","rating":5,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"14","title":"Gladiator","genre":"Action","releaseDate":"2000-05-05","rating":5,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"15","title":"The Social Network","genre":"Biography","releaseDate":"2010-09-24","rating":7,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"16","title":"Inglourious Basterds","genre":"Adventure","releaseDate":"2009-08-21","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"17","title":"The Big Lebowski","genre":"Comedy","releaseDate":"1998-03-06","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"18","title":"Django Unchained","genre":"Drama","releaseDate":"2012-12-25","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"19","title":"The Great Gatsby","genre":"Drama","releaseDate":"2013-05-10","rating":7,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"2","title":"The Dark Knight","genre":"Action","releaseDate":"2008-07-18","rating":9,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"20","title":"The Revenant","genre":"Action","releaseDate":"2015-12-25","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"21","title":"The Wolf of Wall Street","genre":"Biography","releaseDate":"2013-12-25","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"22","title":"Jurassic Park","genre":"Adventure","releaseDate":"1993-06-11","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"23","title":"The Grand Budapest Hotel","genre":"Adventure","releaseDate":"2014-03-28","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zz"}
+{"_id":"24","title":"The Shining","genre":"Drama","releaseDate":"1980-05-23","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"25","title":"Eternal Sunshine of the Spotless Mind","genre":"Drama","releaseDate":"2004-03-19","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"26","title":"The Truman Show","genre":"Comedy","releaseDate":"1998-06-05","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"27","title":"The Prestige","genre":"Drama","releaseDate":"2006-10-20","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"28","title":"Interstellar","genre":"Sci-Fi","releaseDate":"2014-11-07","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"29","title":"The Green Mile","genre":"Crime","releaseDate":"1999-12-10","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"3","title":"Pulp Fiction","genre":"Crime","releaseDate":"1994-10-14","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"30","title":"Shutter Island","genre":"Mystery","releaseDate":"2010-02-19","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"31","title":"Saving Private Ryan","genre":"Drama","releaseDate":"1998-07-24","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zz"}
+{"_id":"32","title":"The Hangover","genre":"Comedy","releaseDate":"2009-06-05","rating":7,"watched":true,"userId":"vI1GMkzBza5i82zz"}
+{"_id":"33","title":"Memento","genre":"Mystery","releaseDate":"2000-10-11","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"34","title":"The Incredibles","genre":"Animation","releaseDate":"2004-11-05","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"35","title":"The Dark Knight Rises","genre":"Action","releaseDate":"2012-07-20","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"36","title":"Black Swan","genre":"Drama","releaseDate":"2010-12-17","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"37","title":"A Beautiful Mind","genre":"Biography","releaseDate":"2001-12-21","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zz"}
+{"_id":"38","title":"Avengers: Endgame","genre":"Action","releaseDate":"2019-04-26","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"39","title":"The Avengers","genre":"Action","releaseDate":"2012-05-04","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"4","title":"The Shawshank Redemption","genre":"Drama","releaseDate":"1994-09-23","rating":9,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"40","title":"Titanic","genre":"Drama","releaseDate":"1997-12-19","rating":7,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"5","title":"Fight Club","genre":"Drama","releaseDate":"1999-10-15","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"6","title":"The Matrix","genre":"Action","releaseDate":"1999-03-31","rating":7,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"7","title":"Forrest Gump","genre":"Drama","releaseDate":"1994-07-06","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"8","title":"The Godfather","genre":"Crime","releaseDate":"1972-03-24","rating":9,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"9","title":"The Lord of the Rings: The Fellowship of the Ring","genre":"Adventure","releaseDate":"2001-12-19","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"_7yzjgojic","title":"testt","genre":"","releaseDate":"","rating":0,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"_tdgu77m6t","title":"","genre":"","releaseDate":"","rating":0,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"_d1grthi4y","title":"EVE","genre":"DSSD","releaseDate":"2023","rating":2,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"_u57vukjbl","title":"test","genre":"gen","releaseDate":"2023","rating":1,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"_yj6j5db88","title":"test_offline","genre":"drama","releaseDate":"2023-02-11","rating":3,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"_of5f50b1t","title":"DARIAAAA","genre":"dsds","releaseDate":"2020-10-12","rating":5,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"_l0mynoa48","title":"dfdfd","genre":"ddf","releaseDate":"2023/04/12","rating":5,"watched":false,"userId":"vI1GMkzBza5i82zj"}

@@ -1,0 +1,11 @@
+Finite Automation
+
+	states: Set<string>
+
+	alphabet: Set<string>
+
+	initialState: string
+
+	finalStates: Set<string>
+
+	delta: Map<tuple(string,string), Set<string>>

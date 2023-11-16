@@ -41,12 +41,12 @@ const MovieEdit: React.FC<MovieEditProps> = ({ history, match }) => {
       setWatched(movie.watched);
     }
   }, [match.params.id, movies]);
-  const handleSave = useCallback(() => {
+  const handleSave = () => {
     const editedMovie = movie
         ? { ...movie, title, releaseDate, rating, watched }
         : { title, releaseDate, rating, watched };
     saveMovie && saveMovie(editedMovie).then(() => history.goBack());
-  }, [movie, saveMovie, title, releaseDate, rating, watched, history]);
+  };
   log('render');
   return (
       <IonPage>

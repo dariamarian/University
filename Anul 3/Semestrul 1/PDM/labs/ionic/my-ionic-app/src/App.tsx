@@ -23,21 +23,24 @@ import './theme/variables.css';
 
 import { MovieEdit, MovieList } from './todo';
 import { MovieProvider } from './todo/MovieProvider';
+import { AuthProvider, Login, PrivateRoute } from './auth';
 
 setupIonicReact();
-
 const App: React.FC = () => (
     <IonApp>
-        <MovieProvider>
-            <IonReactRouter>
-                <IonRouterOutlet>
-                    <Route path="/movies" component={MovieList} exact={true}/>
-                    <Route path="/movie" component={MovieEdit} exact={true}/>
-                    <Route path="/movie/:id" component={MovieEdit} exact={true}/>
+        <IonReactRouter>
+            <IonRouterOutlet>
+                <AuthProvider>
+                    <Route path="/login" component={Login} exact={true}/>
+                    <MovieProvider>
+                        <PrivateRoute path="/movies" component={MovieList} exact={true}/>
+                        <PrivateRoute path="/movie" component={MovieEdit} exact={true}/>
+                        <PrivateRoute path="/movie/:id" component={MovieEdit} exact={true}/>
+                    </MovieProvider>
                     <Route exact path="/" render={() => <Redirect to="/movies"/>}/>
-                </IonRouterOutlet>
-            </IonReactRouter>
-        </MovieProvider>
+                </AuthProvider>
+            </IonRouterOutlet>
+        </IonReactRouter>
     </IonApp>
 );
 
