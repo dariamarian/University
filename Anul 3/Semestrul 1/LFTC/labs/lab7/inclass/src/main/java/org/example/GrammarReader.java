@@ -49,7 +49,7 @@ public class GrammarReader {
             for (ProductionRule rule : productionRules) {
                 for (char c : rule.rule.toCharArray()) {
                     String symbol = String.valueOf(c);
-                    if (!(c >= 'A' && c <= 'Z') && !(c >= 'a' && c <= 'z') && !symbol.equals("ε") && !symbol.equals(" ")) {
+                    if (!(c >= 'A' && c <= 'Z') && !symbol.equals("ε") && !symbol.equals(" ")) {
                         if (!nonterminals.contains(symbol)) {
                             terminals.add(symbol);
                         }
