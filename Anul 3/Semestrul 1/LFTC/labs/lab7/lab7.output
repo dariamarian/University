@@ -1,0 +1,997 @@
+Terminals unused in grammar
+
+   LOWER_THAN_BOOL_OP
+   LOWER_THAN_ARITH_OP
+
+
+Grammar
+
+    0 $accept: program $end
+
+    1 program: function
+
+    2 function: header compound_statement
+
+    3 header: INT MAIN LPR RPR
+
+    4 compound_statement: LAC instr_comp RAC
+
+    5 instr_comp: instr instr_comp
+    6           | instr
+
+    7 instr: assign SEMICOLON
+    8      | decl SEMICOLON
+    9      | if_instr
+   10      | loop_instr
+   11      | input_instr SEMICOLON
+   12      | output_instr SEMICOLON
+   13      | return_instr SEMICOLON
+
+   14 assign: ID ASSIGN expr_arit
+
+   15 expr_arit: expr_arit PLUS expr_arit
+   16          | expr_arit MINUS expr_arit
+   17          | expr_arit MUL expr_arit
+   18          | expr_arit DIV expr_arit
+   19          | ID
+   20          | CONST
+
+   21 decl: type ID
+
+   22 type: INT
+   23     | FLOAT
+   24     | DOUBLE
+   25     | STRUCT
+
+   26 if_instr: IF LPR cond RPR compound_statement
+   27         | IF LPR cond RPR compound_statement ELSE compound_statement
+
+   28 cond: expr_arit GT expr_arit
+   29     | expr_arit LT expr_arit
+   30     | expr_arit NE expr_arit
+   31     | expr_arit E expr_arit
+   32     | expr_arit ELT expr_arit
+   33     | expr_arit EGT expr_arit
+
+   34 loop_instr: WHILE LPR cond RPR compound_statement
+   35           | FOR LPR ASSIGN SEMICOLON cond SEMICOLON ASSIGN RPR compound_statement
+
+   36 input_instr: CIN READ ID
+
+   37 output_instr: COUT WRITE expr_arit
+
+   38 return_instr: RETURN expr_arit
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+error (256)
+INT (258) 3 22
+FLOAT (259) 23
+DOUBLE (260) 24
+STRUCT (261) 25
+IF (262) 26 27
+ELSE (263) 27
+WHILE (264) 34
+FOR (265) 35
+CIN (266) 36
+COUT (267) 37
+RETURN (268) 38
+MAIN (269) 3
+ASSIGN (270) 14 35
+SEMICOLON (271) 7 8 11 12 13 35
+LPR (272) 3 26 27 34 35
+RPR (273) 3 26 27 34 35
+LAC (274) 4
+RAC (275) 4
+READ (276) 36
+WRITE (277) 37
+ID (278) 14 19 21 36
+CONST (279) 20
+GT (280) 28
+LT (281) 29
+NE (282) 30
+E (283) 31
+ELT (284) 32
+EGT (285) 33
+PLUS (286) 15
+MINUS (287) 16
+MUL (288) 17
+DIV (289) 18
+LOWER_THAN_BOOL_OP (290)
+LOWER_THAN_ELSE (291)
+LOWER_THAN_ARITH_OP (292)
+
+
+Nonterminals, with rules where they appear
+
+$accept (38)
+    on left: 0
+program (39)
+    on left: 1, on right: 0
+function (40)
+    on left: 2, on right: 1
+header (41)
+    on left: 3, on right: 2
+compound_statement (42)
+    on left: 4, on right: 2 26 27 34 35
+instr_comp (43)
+    on left: 5 6, on right: 4 5
+instr (44)
+    on left: 7 8 9 10 11 12 13, on right: 5 6
+assign (45)
+    on left: 14, on right: 7
+expr_arit (46)
+    on left: 15 16 17 18 19 20, on right: 14 15 16 17 18 28 29 30 31
+    32 33 37 38
+decl (47)
+    on left: 21, on right: 8
+type (48)
+    on left: 22 23 24 25, on right: 21
+if_instr (49)
+    on left: 26 27, on right: 9
+cond (50)
+    on left: 28 29 30 31 32 33, on right: 26 27 34 35
+loop_instr (51)
+    on left: 34 35, on right: 10
+input_instr (52)
+    on left: 36, on right: 11
+output_instr (53)
+    on left: 37, on right: 12
+return_instr (54)
+    on left: 38, on right: 13
+
+
+state 0
+
+    0 $accept: . program $end
+
+    INT  shift, and go to state 1
+
+    program   go to state 2
+    function  go to state 3
+    header    go to state 4
+
+
+state 1
+
+    3 header: INT . MAIN LPR RPR
+
+    MAIN  shift, and go to state 5
+
+
+state 2
+
+    0 $accept: program . $end
+
+    $end  shift, and go to state 6
+
+
+state 3
+
+    1 program: function .
+
+    $default  reduce using rule 1 (program)
+
+
+state 4
+
+    2 function: header . compound_statement
+
+    LAC  shift, and go to state 7
+
+    compound_statement  go to state 8
+
+
+state 5
+
+    3 header: INT MAIN . LPR RPR
+
+    LPR  shift, and go to state 9
+
+
+state 6
+
+    0 $accept: program $end .
+
+    $default  accept
+
+
+state 7
+
+    4 compound_statement: LAC . instr_comp RAC
+
+    INT     shift, and go to state 10
+    FLOAT   shift, and go to state 11
+    DOUBLE  shift, and go to state 12
+    STRUCT  shift, and go to state 13
+    IF      shift, and go to state 14
+    WHILE   shift, and go to state 15
+    FOR     shift, and go to state 16
+    CIN     shift, and go to state 17
+    COUT    shift, and go to state 18
+    RETURN  shift, and go to state 19
+    ID      shift, and go to state 20
+
+    instr_comp    go to state 21
+    instr         go to state 22
+    assign        go to state 23
+    decl          go to state 24
+    type          go to state 25
+    if_instr      go to state 26
+    loop_instr    go to state 27
+    input_instr   go to state 28
+    output_instr  go to state 29
+    return_instr  go to state 30
+
+
+state 8
+
+    2 function: header compound_statement .
+
+    $default  reduce using rule 2 (function)
+
+
+state 9
+
+    3 header: INT MAIN LPR . RPR
+
+    RPR  shift, and go to state 31
+
+
+state 10
+
+   22 type: INT .
+
+    $default  reduce using rule 22 (type)
+
+
+state 11
+
+   23 type: FLOAT .
+
+    $default  reduce using rule 23 (type)
+
+
+state 12
+
+   24 type: DOUBLE .
+
+    $default  reduce using rule 24 (type)
+
+
+state 13
+
+   25 type: STRUCT .
+
+    $default  reduce using rule 25 (type)
+
+
+state 14
+
+   26 if_instr: IF . LPR cond RPR compound_statement
+   27         | IF . LPR cond RPR compound_statement ELSE compound_statement
+
+    LPR  shift, and go to state 32
+
+
+state 15
+
+   34 loop_instr: WHILE . LPR cond RPR compound_statement
+
+    LPR  shift, and go to state 33
+
+
+state 16
+
+   35 loop_instr: FOR . LPR ASSIGN SEMICOLON cond SEMICOLON ASSIGN RPR compound_statement
+
+    LPR  shift, and go to state 34
+
+
+state 17
+
+   36 input_instr: CIN . READ ID
+
+    READ  shift, and go to state 35
+
+
+state 18
+
+   37 output_instr: COUT . WRITE expr_arit
+
+    WRITE  shift, and go to state 36
+
+
+state 19
+
+   38 return_instr: RETURN . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 39
+
+
+state 20
+
+   14 assign: ID . ASSIGN expr_arit
+
+    ASSIGN  shift, and go to state 40
+
+
+state 21
+
+    4 compound_statement: LAC instr_comp . RAC
+
+    RAC  shift, and go to state 41
+
+
+state 22
+
+    5 instr_comp: instr . instr_comp
+    6           | instr .
+
+    INT     shift, and go to state 10
+    FLOAT   shift, and go to state 11
+    DOUBLE  shift, and go to state 12
+    STRUCT  shift, and go to state 13
+    IF      shift, and go to state 14
+    WHILE   shift, and go to state 15
+    FOR     shift, and go to state 16
+    CIN     shift, and go to state 17
+    COUT    shift, and go to state 18
+    RETURN  shift, and go to state 19
+    ID      shift, and go to state 20
+
+    $default  reduce using rule 6 (instr_comp)
+
+    instr_comp    go to state 42
+    instr         go to state 22
+    assign        go to state 23
+    decl          go to state 24
+    type          go to state 25
+    if_instr      go to state 26
+    loop_instr    go to state 27
+    input_instr   go to state 28
+    output_instr  go to state 29
+    return_instr  go to state 30
+
+
+state 23
+
+    7 instr: assign . SEMICOLON
+
+    SEMICOLON  shift, and go to state 43
+
+
+state 24
+
+    8 instr: decl . SEMICOLON
+
+    SEMICOLON  shift, and go to state 44
+
+
+state 25
+
+   21 decl: type . ID
+
+    ID  shift, and go to state 45
+
+
+state 26
+
+    9 instr: if_instr .
+
+    $default  reduce using rule 9 (instr)
+
+
+state 27
+
+   10 instr: loop_instr .
+
+    $default  reduce using rule 10 (instr)
+
+
+state 28
+
+   11 instr: input_instr . SEMICOLON
+
+    SEMICOLON  shift, and go to state 46
+
+
+state 29
+
+   12 instr: output_instr . SEMICOLON
+
+    SEMICOLON  shift, and go to state 47
+
+
+state 30
+
+   13 instr: return_instr . SEMICOLON
+
+    SEMICOLON  shift, and go to state 48
+
+
+state 31
+
+    3 header: INT MAIN LPR RPR .
+
+    $default  reduce using rule 3 (header)
+
+
+state 32
+
+   26 if_instr: IF LPR . cond RPR compound_statement
+   27         | IF LPR . cond RPR compound_statement ELSE compound_statement
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 49
+    cond       go to state 50
+
+
+state 33
+
+   34 loop_instr: WHILE LPR . cond RPR compound_statement
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 49
+    cond       go to state 51
+
+
+state 34
+
+   35 loop_instr: FOR LPR . ASSIGN SEMICOLON cond SEMICOLON ASSIGN RPR compound_statement
+
+    ASSIGN  shift, and go to state 52
+
+
+state 35
+
+   36 input_instr: CIN READ . ID
+
+    ID  shift, and go to state 53
+
+
+state 36
+
+   37 output_instr: COUT WRITE . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 54
+
+
+state 37
+
+   19 expr_arit: ID .
+
+    $default  reduce using rule 19 (expr_arit)
+
+
+state 38
+
+   20 expr_arit: CONST .
+
+    $default  reduce using rule 20 (expr_arit)
+
+
+state 39
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+   38 return_instr: RETURN expr_arit .
+
+    PLUS   shift, and go to state 55
+    MINUS  shift, and go to state 56
+    MUL    shift, and go to state 57
+    DIV    shift, and go to state 58
+
+    $default  reduce using rule 38 (return_instr)
+
+
+state 40
+
+   14 assign: ID ASSIGN . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 59
+
+
+state 41
+
+    4 compound_statement: LAC instr_comp RAC .
+
+    $default  reduce using rule 4 (compound_statement)
+
+
+state 42
+
+    5 instr_comp: instr instr_comp .
+
+    $default  reduce using rule 5 (instr_comp)
+
+
+state 43
+
+    7 instr: assign SEMICOLON .
+
+    $default  reduce using rule 7 (instr)
+
+
+state 44
+
+    8 instr: decl SEMICOLON .
+
+    $default  reduce using rule 8 (instr)
+
+
+state 45
+
+   21 decl: type ID .
+
+    $default  reduce using rule 21 (decl)
+
+
+state 46
+
+   11 instr: input_instr SEMICOLON .
+
+    $default  reduce using rule 11 (instr)
+
+
+state 47
+
+   12 instr: output_instr SEMICOLON .
+
+    $default  reduce using rule 12 (instr)
+
+
+state 48
+
+   13 instr: return_instr SEMICOLON .
+
+    $default  reduce using rule 13 (instr)
+
+
+state 49
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+   28 cond: expr_arit . GT expr_arit
+   29     | expr_arit . LT expr_arit
+   30     | expr_arit . NE expr_arit
+   31     | expr_arit . E expr_arit
+   32     | expr_arit . ELT expr_arit
+   33     | expr_arit . EGT expr_arit
+
+    GT     shift, and go to state 60
+    LT     shift, and go to state 61
+    NE     shift, and go to state 62
+    E      shift, and go to state 63
+    ELT    shift, and go to state 64
+    EGT    shift, and go to state 65
+    PLUS   shift, and go to state 55
+    MINUS  shift, and go to state 56
+    MUL    shift, and go to state 57
+    DIV    shift, and go to state 58
+
+
+state 50
+
+   26 if_instr: IF LPR cond . RPR compound_statement
+   27         | IF LPR cond . RPR compound_statement ELSE compound_statement
+
+    RPR  shift, and go to state 66
+
+
+state 51
+
+   34 loop_instr: WHILE LPR cond . RPR compound_statement
+
+    RPR  shift, and go to state 67
+
+
+state 52
+
+   35 loop_instr: FOR LPR ASSIGN . SEMICOLON cond SEMICOLON ASSIGN RPR compound_statement
+
+    SEMICOLON  shift, and go to state 68
+
+
+state 53
+
+   36 input_instr: CIN READ ID .
+
+    $default  reduce using rule 36 (input_instr)
+
+
+state 54
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+   37 output_instr: COUT WRITE expr_arit .
+
+    PLUS   shift, and go to state 55
+    MINUS  shift, and go to state 56
+    MUL    shift, and go to state 57
+    DIV    shift, and go to state 58
+
+    $default  reduce using rule 37 (output_instr)
+
+
+state 55
+
+   15 expr_arit: expr_arit PLUS . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 69
+
+
+state 56
+
+   16 expr_arit: expr_arit MINUS . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 70
+
+
+state 57
+
+   17 expr_arit: expr_arit MUL . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 71
+
+
+state 58
+
+   18 expr_arit: expr_arit DIV . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 72
+
+
+state 59
+
+   14 assign: ID ASSIGN expr_arit .
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+
+    PLUS   shift, and go to state 55
+    MINUS  shift, and go to state 56
+    MUL    shift, and go to state 57
+    DIV    shift, and go to state 58
+
+    $default  reduce using rule 14 (assign)
+
+
+state 60
+
+   28 cond: expr_arit GT . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 73
+
+
+state 61
+
+   29 cond: expr_arit LT . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 74
+
+
+state 62
+
+   30 cond: expr_arit NE . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 75
+
+
+state 63
+
+   31 cond: expr_arit E . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 76
+
+
+state 64
+
+   32 cond: expr_arit ELT . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 77
+
+
+state 65
+
+   33 cond: expr_arit EGT . expr_arit
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 78
+
+
+state 66
+
+   26 if_instr: IF LPR cond RPR . compound_statement
+   27         | IF LPR cond RPR . compound_statement ELSE compound_statement
+
+    LAC  shift, and go to state 7
+
+    compound_statement  go to state 79
+
+
+state 67
+
+   34 loop_instr: WHILE LPR cond RPR . compound_statement
+
+    LAC  shift, and go to state 7
+
+    compound_statement  go to state 80
+
+
+state 68
+
+   35 loop_instr: FOR LPR ASSIGN SEMICOLON . cond SEMICOLON ASSIGN RPR compound_statement
+
+    ID     shift, and go to state 37
+    CONST  shift, and go to state 38
+
+    expr_arit  go to state 49
+    cond       go to state 81
+
+
+state 69
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   15          | expr_arit PLUS expr_arit .
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+
+    MUL  shift, and go to state 57
+    DIV  shift, and go to state 58
+
+    $default  reduce using rule 15 (expr_arit)
+
+
+state 70
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   16          | expr_arit MINUS expr_arit .
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+
+    MUL  shift, and go to state 57
+    DIV  shift, and go to state 58
+
+    $default  reduce using rule 16 (expr_arit)
+
+
+state 71
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   17          | expr_arit MUL expr_arit .
+   18          | expr_arit . DIV expr_arit
+
+    $default  reduce using rule 17 (expr_arit)
+
+
+state 72
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+   18          | expr_arit DIV expr_arit .
+
+    $default  reduce using rule 18 (expr_arit)
+
+
+state 73
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+   28 cond: expr_arit GT expr_arit .
+
+    PLUS   shift, and go to state 55
+    MINUS  shift, and go to state 56
+    MUL    shift, and go to state 57
+    DIV    shift, and go to state 58
+
+    $default  reduce using rule 28 (cond)
+
+
+state 74
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+   29 cond: expr_arit LT expr_arit .
+
+    PLUS   shift, and go to state 55
+    MINUS  shift, and go to state 56
+    MUL    shift, and go to state 57
+    DIV    shift, and go to state 58
+
+    $default  reduce using rule 29 (cond)
+
+
+state 75
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+   30 cond: expr_arit NE expr_arit .
+
+    PLUS   shift, and go to state 55
+    MINUS  shift, and go to state 56
+    MUL    shift, and go to state 57
+    DIV    shift, and go to state 58
+
+    $default  reduce using rule 30 (cond)
+
+
+state 76
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+   31 cond: expr_arit E expr_arit .
+
+    PLUS   shift, and go to state 55
+    MINUS  shift, and go to state 56
+    MUL    shift, and go to state 57
+    DIV    shift, and go to state 58
+
+    $default  reduce using rule 31 (cond)
+
+
+state 77
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+   32 cond: expr_arit ELT expr_arit .
+
+    PLUS   shift, and go to state 55
+    MINUS  shift, and go to state 56
+    MUL    shift, and go to state 57
+    DIV    shift, and go to state 58
+
+    $default  reduce using rule 32 (cond)
+
+
+state 78
+
+   15 expr_arit: expr_arit . PLUS expr_arit
+   16          | expr_arit . MINUS expr_arit
+   17          | expr_arit . MUL expr_arit
+   18          | expr_arit . DIV expr_arit
+   33 cond: expr_arit EGT expr_arit .
+
+    PLUS   shift, and go to state 55
+    MINUS  shift, and go to state 56
+    MUL    shift, and go to state 57
+    DIV    shift, and go to state 58
+
+    $default  reduce using rule 33 (cond)
+
+
+state 79
+
+   26 if_instr: IF LPR cond RPR compound_statement .
+   27         | IF LPR cond RPR compound_statement . ELSE compound_statement
+
+    ELSE  shift, and go to state 82
+
+    $default  reduce using rule 26 (if_instr)
+
+
+state 80
+
+   34 loop_instr: WHILE LPR cond RPR compound_statement .
+
+    $default  reduce using rule 34 (loop_instr)
+
+
+state 81
+
+   35 loop_instr: FOR LPR ASSIGN SEMICOLON cond . SEMICOLON ASSIGN RPR compound_statement
+
+    SEMICOLON  shift, and go to state 83
+
+
+state 82
+
+   27 if_instr: IF LPR cond RPR compound_statement ELSE . compound_statement
+
+    LAC  shift, and go to state 7
+
+    compound_statement  go to state 84
+
+
+state 83
+
+   35 loop_instr: FOR LPR ASSIGN SEMICOLON cond SEMICOLON . ASSIGN RPR compound_statement
+
+    ASSIGN  shift, and go to state 85
+
+
+state 84
+
+   27 if_instr: IF LPR cond RPR compound_statement ELSE compound_statement .
+
+    $default  reduce using rule 27 (if_instr)
+
+
+state 85
+
+   35 loop_instr: FOR LPR ASSIGN SEMICOLON cond SEMICOLON ASSIGN . RPR compound_statement
+
+    RPR  shift, and go to state 86
+
+
+state 86
+
+   35 loop_instr: FOR LPR ASSIGN SEMICOLON cond SEMICOLON ASSIGN RPR . compound_statement
+
+    LAC  shift, and go to state 7
+
+    compound_statement  go to state 87
+
+
+state 87
+
+   35 loop_instr: FOR LPR ASSIGN SEMICOLON cond SEMICOLON ASSIGN RPR compound_statement .
+
+    $default  reduce using rule 35 (loop_instr)

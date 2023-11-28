@@ -1,0 +1,58 @@
+%{
+#include "lab7.tab.h"
+#include <stdlib.h>
+
+int currentLine = 1;
+
+void report_lexical_error(const char *message, const char *lexeme) {
+    fprintf(stderr, "Lexical error at line %d: %s '%s'\n", currentLine, message, lexeme);
+    exit(EXIT_FAILURE);
+}
+
+%}
+
+%option noyywrap
+
+DIGIT [0-9]
+ID [a-zA-Z_][a-zA-Z0-9_]{0,7}
+
+%%
+
+"int"              { return INT; }
+"float"            { return FLOAT; }
+"double"           { return DOUBLE; }
+"struct"           { return STRUCT; }
+"if"               { return IF; }
+"else"             { return ELSE; }
+"while"            { return WHILE; }
+"for"              { return FOR; }
+"cin"              { return CIN; }
+"cout"             { return COUT; }
+"return"           { return RETURN; }
+"main"             { return MAIN; }
+"+"                { return PLUS; }
+"-"                { return MINUS; }
+"*"                { return MUL; }
+"/"                { return DIV; }
+">"                { return GT; }
+"<"                { return LT; }
+"!="               { return NE; }
+"=="               { return E; }
+"<="               { return ELT; }
+">="               { return EGT; }
+"="                { return ASSIGN; }
+";"                { return SEMICOLON; }
+"("                { return LPR; }
+")"                { return RPR; }
+"{"                { return LAC; }
+"}"                { return RAC; }
+">>"               { return READ; }
+"<<"               { return WRITE; }
+{ID}{1,8} 	   { if (yyleng > 8) { report_lexical_error("Identifier too long", yytext); } return ID;}
+{DIGIT}+|{DIGIT}"."{DIGIT}{DIGIT}* 	{ return CONST;}
+
+[\t]+              ; /* Ignore tabs */
+\n                 { currentLine++; } /* Increment line number on newline */
+[ ]+              ; /* Ignore spaces */
+
+%%

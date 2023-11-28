@@ -7,9 +7,9 @@ public class GenerateInput {
     static int n, m;
 
     public static void main(String[] args){
-        N = 10000;
-        M = 10;
-        n = m = 5;
+        N = 1000;
+        M = 1000;
+        n = m = 3;
         generateInput("input.txt");
     }
 

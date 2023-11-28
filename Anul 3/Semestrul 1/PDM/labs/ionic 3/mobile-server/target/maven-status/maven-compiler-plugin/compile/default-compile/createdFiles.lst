@@ -1,0 +1,6 @@
+com\example\mobileserver\utils\JwtTokenProvider.class
+com\example\mobileserver\model\Kickboxer$KickboxerBuilder.class
+com\example\mobileserver\model\Kickboxer.class
+com\example\mobileserver\service\KickboxerService.class
+com\example\mobileserver\model\LoginRequest.class
+com\example\mobileserver\controller\AuthController.class

@@ -1,0 +1,4 @@
+C:\Users\asirbu\repo\personal\CS-UBB\Year03\1st semester\PPD\Lab\Lab03\Lab03\x64\Debug\Lab03.exe
+C:\Users\OTI\OneDrive\Desktop\Facultate\Materii\PPD\Lab03\Lab03\x64\Debug\Lab03.exe
+C:\Users\daria\Downloads\Lab03\Lab03\x64\Debug\lab3.exe
+C:\Users\daria\Github\University\Anul 3\Semestrul 1\PPD\labs\lab3\x64\Debug\lab3.exe

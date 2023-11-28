@@ -7,8 +7,8 @@ public class GenerateInput {
     static int n, m;
 
     public static void main(String[] args){
-        N = 10000;
-        M = 10000;
+        N = 1000;
+        M = 1000;
         n = m = 3;
         generateInput("input.txt");
     }
@@ -17,18 +17,18 @@ public class GenerateInput {
         try{
             File f = new File(file);
             FileWriter fw = new FileWriter(f);
-            fw.write(N + "\n");
-            fw.write(M + "\n");
-            for(int i = 0; i < N; i++) {
-                for(int j = 0; j < M; j++) {
-                    fw.write((int)(Math.random() * 100) + " ");
-                }
-                fw.write("\n");
-            }
             fw.write(n + "\n");
             fw.write(m + "\n");
             for(int i = 0; i < n; i++) {
                 for(int j = 0; j < m; j++) {
+                    fw.write((int)(Math.random() * 100) + " ");
+                }
+                fw.write("\n");
+            }
+            fw.write(N + "\n");
+            fw.write(M + "\n");
+            for(int i = 0; i < N; i++) {
+                for(int j = 0; j < M; j++) {
                     fw.write((int)(Math.random() * 100) + " ");
                 }
                 fw.write("\n");
