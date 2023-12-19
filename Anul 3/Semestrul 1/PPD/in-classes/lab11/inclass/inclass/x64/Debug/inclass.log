@@ -1,0 +1,3 @@
+﻿  inclass.cpp
+E:\DARIA\Daria\University\Anul 3\Semestrul 1\PPD\in-classes\lab11\inclass\inclass\inclass.cpp(97,13): warning C4849: OpenMP 'collapse' clause ignored in 'for' directive
+  inclass.vcxproj -> E:\DARIA\Daria\University\Anul 3\Semestrul 1\PPD\in-classes\lab11\inclass\x64\Debug\inclass.exe

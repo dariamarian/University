@@ -4,3 +4,15 @@ T -> T * F
 T -> F
 F -> (E)
 F -> a
+
+in-class:
+
+Structura gramatica:
+Grammar Reader:
+    - Set<String> nonterminals;
+    - Set<String> terminals;
+    - Set<ProductionRule> productionRules;
+    - String startSymbol : primul simbol din gramatica;
+Production Rule:
+    - String nonterminal;
+    - String rule;

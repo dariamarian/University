@@ -1,0 +1,11 @@
+{"_id":"1","genre":"","rating":0,"releaseDate":"","title":"Inception2","watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"10","genre":"Testw2","rating":11,"releaseDate":"2003-04-15\t","title":"The Lord of the Rings: The Return of the King","watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"11","title":"The Lord of the Rings: The Two Towers","genre":"Adventure","releaseDate":"2002-12-18","rating":7,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"12","genre":"Crime","rating":6,"releaseDate":"1991-02-14","title":"The Silence of the Lambs","watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"13","title":"The Departed","genre":"Crime","releaseDate":"2006-10-06","rating":5,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"14","title":"Gladiator","genre":"Action","releaseDate":"2000-05-05","rating":5,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"15","genre":"Test","rating":2,"releaseDate":"2023-11-11","title":"The Social Network test","watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"16","title":"Inglourious Basterds","genre":"Adventure","releaseDate":"2009-08-21","rating":8,"watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"17","genre":"","rating":0,"releaseDate":"","title":"The Big Lebowski","watched":false,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"18","title":"Django Unchained","genre":"Drama","releaseDate":"2012-12-25","rating":8,"watched":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"10","genre":"Testw3","rating":11,"releaseDate":"2003-04-15\t","title":"The Lord of the Rings: The Return of the King","watched":false,"userId":"vI1GMkzBza5i82zj"}
