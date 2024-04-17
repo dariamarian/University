@@ -1,0 +1,8 @@
+﻿  ConsoleApplication1.cpp
+E:\DARIA\Daria\University\Anul 3\Semestrul 1\LFTC\labs\lab8\tema5part2\ConsoleApplication1.cpp(81,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\DARIA\Daria\University\Anul 3\Semestrul 1\LFTC\labs\lab8\tema5part2\ConsoleApplication1.cpp(90,52): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+E:\DARIA\Daria\University\Anul 3\Semestrul 1\LFTC\labs\lab8\tema5part2\ConsoleApplication1.cpp(110,45): warning C4267: '-=': conversion from 'size_t' to 'int', possible loss of data
+E:\DARIA\Daria\University\Anul 3\Semestrul 1\LFTC\labs\lab8\tema5part2\ConsoleApplication1.cpp(137,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\DARIA\Daria\University\Anul 3\Semestrul 1\LFTC\labs\lab8\tema5part2\ConsoleApplication1.cpp(153,71): warning C4566: character represented by universal-character-name '\u03B5' cannot be represented in the current code page (1252)
+E:\DARIA\Daria\University\Anul 3\Semestrul 1\LFTC\labs\lab8\tema5part2\ConsoleApplication1.cpp(157,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ConsoleApplication1.vcxproj -> E:\DARIA\Daria\University\Anul 3\Semestrul 1\LFTC\labs\lab8\tema5part2\x64\Debug\ConsoleApplication1.exe

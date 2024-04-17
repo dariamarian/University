@@ -1,0 +1,10 @@
+int main()
+{
+    int a;
+	int b;
+	cin>>a;
+	b=a*6;
+	b=4+b;
+    cout<<b;
+    return 0;
+}

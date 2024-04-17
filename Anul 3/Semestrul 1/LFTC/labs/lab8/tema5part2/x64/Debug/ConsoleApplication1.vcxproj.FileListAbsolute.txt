@@ -1,0 +1,3 @@
+C:\Users\daria\OneDrive\Desktop\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+C:\Users\daria\OneDrive\Desktop\tema5part2\x64\Debug\ConsoleApplication1.exe
+E:\DARIA\Daria\University\Anul 3\Semestrul 1\LFTC\labs\lab8\tema5part2\x64\Debug\ConsoleApplication1.exe
